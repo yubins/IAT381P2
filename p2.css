@@ -1,0 +1,16 @@
+h1   {
+	text-align: right;
+	color: #FFFFFF;
+	font-size:13px;
+}
+/* i want to make text bottom but it doesnt work yet */
+body {
+	text-align: center;
+}
+#candy {
+	float: center;
+	background-color:#FAC8D9;
+	width:500px;
+	height:100px;
+	padding: 10px 20px 10px 20px;
+}
