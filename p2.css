@@ -1,16 +1,189 @@
+body {background-image:url('bg.jpg');}
+
+
+
 h1   {
 	text-align: right;
 	color: #FFFFFF;
-	font-size:13px;
+	font-size:15px;
+	position: absolute; bottom: 0; right:0;
 }
-/* i want to make text bottom but it doesnt work yet */
-body {
+
+body { /* make everything at the middle*/
+	/*text-align: center;*/
+}
+
+
+#titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
+	width: 700px;
+	height: 125px;
+	margin: 0px auto;
+}
+
+#candy {
+	float: left;
+	background-color:#FAC8D9;
+	width:100px;
+	height:125px;
+	position: relative; /* without this it will be at the bottom of the page */
+	/*margin: 0px auto;*/
+	/*padding: 10px 20px 10px 20px;*/
+	/*margin:50px, 0px, 50px, 100px;*/
+}
+
+#candyimage {
+	float: left;
+	background-color: #000000;
+	width:600px;
+	height:125px;
+	/*margin: 0px auto;*/
+	/*padding: 10px 20px 10px 20px;
+	margin:50px, 100px, 50px, 0px;*/
+}
+
+h2 {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+#welcome {
+	/*background-color:#000000;*/
+	width: 700px;
+	height: 300px;
+	margin: 0px auto;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+/*
+#welcometext{
+	display: table-cell;
+	width: 700px;
+	height: 300px;
+	position: relative;
+	vertical-align:middle;
 	text-align: center;
 }
-#candy {
-	float: center;
+*/
+
+h3 {
+	color: #FAC8D9;
+	font-size:25px;
+}
+#deals {
+	width: 700px;
+	height: 300px;
+	margin: 0px auto;
+	border-top-style:solid;	
+	border-top-color: #FAC8D9;
+	border-right-style:none;
+	border-left-style:none;
+	border-bottom-style:solid;
+	border-bottom-color: #FAC8D9;
+}
+
+#dealstext {
+	width: 700px;
+	height: 20px;
+}
+
+#dealscandy {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+
+
+#candy1 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 12.5px;
+}
+
+#candy2 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 12.5px;
+}
+
+#candy3 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 12.5px;
+}
+
+#candy4 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 12.5px;
+}
+
+#holder {
+	width: 700px;
+	height: 250px;
+	margin: 0px auto;
+}
+
+#about {
+	float:left;
+	width: 200px;
+	height: 225px;
+	background-color: #000000;
+	margin:16px;
+}
+
+#contact {
+	float: left;
+	width: 200px;
+	height: 225px;
+	background-color: #000000;
+	margin:16px;
+}
+
+#order {
+	float:left;
+	width: 200px;
+	height: 225px;
+	background-color: #000000;
+	margin:16px;
+}
+
+#more {
+	width:700px;
+	height: 120px;
+	margin: 0px auto;
+	background-color: #575254;
+	position: relative;
+	vertical-align: middle;
+}
+
+h4 {
+	color: #FFFFFF;
+	size: 15px;
+}
+
+#moretext {
+	display: table-cell;
+	width: 700px;
+	height: 120px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
 	background-color:#FAC8D9;
-	width:500px;
-	height:100px;
-	padding: 10px 20px 10px 20px;
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right:0.5em;
 }
