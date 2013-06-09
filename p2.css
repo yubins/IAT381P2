@@ -249,16 +249,33 @@ h3 {
 	float:left;
 	width: 150px;
 	height: 150px;
-	background-color: #000000;
-	margin: 12.5px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 #candy2 {
 	float:left;
 	width: 150px;
 	height: 150px;
+	/*
 	background-color: #000000;
-	margin: 12.5px;
+	*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 #candy3 {
@@ -266,7 +283,14 @@ h3 {
 	width: 150px;
 	height: 150px;
 	background-color: #000000;
-	margin: 12.5px;
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 #candy4 {
@@ -274,7 +298,14 @@ h3 {
 	width: 150px;
 	height: 150px;
 	background-color: #000000;
-	margin: 12.5px;
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 /*
