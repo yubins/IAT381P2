@@ -301,8 +301,6 @@ div#menu {
 	height: 0px;
 	margin: 0px auto;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	position: relative;
-	vertical-align: middle;
 }
 
 h4 {
@@ -312,7 +310,7 @@ h4 {
 
 #fnote {
 	display: table-cell;
-	width: 500px;
+	width: 700px;
 	height: 50px;
 	margin:0px auto;
 	text-align: center;
