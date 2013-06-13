@@ -266,13 +266,13 @@ h5{
 	border-bottom-left-radius:0em;
 }
 
-#result {
+#checkout {
 	width: 700px;
 	height: 200px;
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-image: url("result.jpg");
+	background-image: url("check.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -284,7 +284,7 @@ h5{
 }
 
 /*result text on the image*/
-#rtext{
+#checktext{
 	display: table-cell;
 	width: 700px;
 	height: 200px;
@@ -301,107 +301,137 @@ h2 {
 	font-size: 30px;
 }
 
-#rbox {
+/*check our page from here*/
+#cbox {
 	width: 700px;
-	height: 900px;
+	height: 500px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	background-color:rgba(255,255,255,0.5); /*just opacity the background not everything*/
 	margin: 0px auto;
+	position: relative;
+	vertical-align: middle;
 }
 
-#caramel1 {
+#checklist {
 	width: 600px;
-	height: 170px;
-	/*background-color: #FFFFFF;*/
-	margin: 0px auto;
-	border: #F75A93;
-	border-style:solid;
-	border-width:5px;
-	border-radius: 25px;
-	position: relative;
+	height: 400px;
+	position: absolute;
+	background-color: #FFFFFF;
+	margin: 50px 50px 50px 50px;
+	font-size: 20px;
 }
 
-#box1 {
-	width: 550px;
-	height: 120px;
+#checkheader {
+	width: 500px;
+	height: 40px;
 	/*
-	background-color: #FF0000;*/
-	margin: 25px 20px 25px 20px;
-	}
-
-
-#cimage1 {
-	float: left;
-	width: 120px;
-	height: 120px;
-	background-color: #000000;
-	border-radius: 10px;
-	position: relative;
-	margin: 0px 30px 0px 0px;
+	background-color:#000000;*/
+	margin: 20px 20px 20px 40px;
+	border-style: none none dotted none;
 }
 
+#detail {
+	width: 500px;
+	height: 100px;
+	/*
+	background-color:#000000;*/
+	margin: 20px 20px 20px 40px;
+	border-style: none none dotted none;
+}
 
-#caratext	{
+#listbox {
 	float: left;
 	width: 300px;
-	height: 120px;
-	/*
-	margin: 25px 20px 25px 20px;
-	background-color:#000000;
-	border: 1px solid;*/
-	position: relative;
-	padding: 5px;
-	margin: 0px 10px 0px 0px;
-}
-
-h7 {
+	height 100px;
 	font-size: 12px;
 }
 
-#cartb {
-	float: left;
-	width: 80px;
-	height: 120px;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
+
+#pricebox	{
+	float:left;
+	text-align:right;
+	width: 200px;
+	height 100px;
+	font-size:12px;
+	list-style-type: none;
 }
 
+#total {
+	width: 500px;
+	height:50px;
+	margin: 20px 20px 20px 40px;
+	/*
+	background-color: #000000;*/
+}
 
-#cartbutton {
-	width:80px;
-	height:30px;
-	position:relative;
-	margin: 45px 0px 45px 0px;
-	background-color: #6EDDFF;
-	font-size: 10px;
+#ttext {
+	float:left;
+	width: 300px;
+	height 50px;
+	font-size: 12px;
+	/*
+	background-color: #000000;*/
+}
+
+#tprice {
+	float:left;
+	text-align:right;
+	width: 200px;
+	height 50px;
+	font-size:12px;
+	/*
+	background-color:#000000;*/
+	
+
+}
+
+#BAP {
+	width: 500px;
+	height: 100px;
+	/*
+	background-color: #9C9C9C;*/
+	margin: 0px 20px 20px 40px;
+}
+
+#bbbox {
+	width: 150px;
+	height: 50px;
+	/*
+	background-color:#000000;*/
+	margin: 25px 66.6px 25px 66.6px;
+	position: absolute;
+}
+
+#bbutton {
+	width:150px;
+	height:50px;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
-	}
-	
-/*here is the check out button*/
-
-#checkbox {
-	width:700px;
-	height: 30px;
-	margin: 0px auto;
-	/*
-	background-color: #000000;*/ 
-	/*just used to test where is the box*/
+	border-color: #EB0075;
 }
 
-#checkbutton {
-	width:200px;
-	height:30px;
-	margin: 0px 250px 0px 250px;
+#pbbox {
+	width: 150px;
+	height: 50px;
+	/*
+	background-color:#000000;*/
+	margin: 25px 66.6px 25px 283.2px;
+	position: absolute;
+
+}
+
+#pbutton {
+	width:150px;
+	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
 	border-color: #EB0075;
-	}
-
+}
 
 
 
