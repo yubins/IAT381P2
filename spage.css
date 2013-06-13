@@ -313,25 +313,72 @@ h2 {
 #caramel1 {
 	width: 600px;
 	height: 170px;
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;*/
 	margin: 0px auto;
 	border: #F75A93;
 	border-style:solid;
 	border-width:5px;
 	border-radius: 25px;
+	position: relative;
 }
 
-#cimage1 {
+#box1 {
+	width: 550px;
+	height: 120px;
+	/*
+	background-color: #FF0000;*/
+	margin: 25px 20px 25px 20px;
+	}
 
+
+#cimage1 {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	border-radius: 10px;
+	position: relative;
+	margin: 0px 30px 0px 0px;
 }
 
 
 #caratext	{
+	float: left;
+	width: 300px;
+	height: 120px;
+	/*
+	margin: 25px 20px 25px 20px;
+	background-color:#000000;
+	border: 1px solid;*/
+	position: relative;
+	padding: 5px;
+	margin: 0px 10px 0px 0px;
+}
 
+h7 {
+	font-size: 12px;
+}
+
+#cartb {
+	float: left;
+	width: 80px;
+	height: 120px;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
 }
 
 
-
+#cartbutton {
+	width:80px;
+	height:30px;
+	position:relative;
+	margin: 45px 0px 45px 0px;
+	background-color: #6EDDFF;
+	font-size: 10px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	}
 
 
 
