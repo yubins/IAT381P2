@@ -8,16 +8,26 @@ Body{
 
 #header {
 	width: 700px;
-	height: 125px;
+	height: 100px;
 	margin: 0px auto;
-	
 	}
 	
 #mainlogo{
-	width 700;
-	height: 125px;
-
+	float:left;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	position:relative;
 	}
+	
+#logoimg {
+	float:left;
+	width: 600px;
+	height: 100px;
+	background-color: gray;
+	position: relative;
+
+}
 
 
 #buy{
