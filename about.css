@@ -30,57 +30,6 @@ Body{
 }
 
 
-#buy{
-	height:50px
-	width:50px;
-	border-style:none;
-	
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-		border-radius:15px;
-
-}
-#buy{
-	margin-top:2em;
-	}
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-div#buy li:hover {
-	
-	
-	background: #FF91AF;
-	padding-top:0.65em;
-
-	padding-bottom:0em;
-	
-	
-}
-div#buy li{
-display: inline;
-	list-style-type: none;
-	margin-top: 2em;
-	padding-bottom:0;
-	padding-top:0.5em;
-	padding-left:0.5em;
-	padding-right:0.5em;
-	border-style:none;
-	
-}
 
 
 #mainmenu{
@@ -136,59 +85,7 @@ display: inline;
 }
 
 
-div#viewchange{
-	
-	border-style:none;
-	margin-bottom:0em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	font-size:60%;
-		border-radius:15px;
 
-}
-div#viewchange{
-	height:32px;
-	width:110px;
-	margin: 0px ;
-	}
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-div#viewchange li:hover {
-	
-	
-	background: #FF91AF;
-	padding-top:20px;
-	padding-bottom:0em;
-	
-	
-}
-div#viewchange li{
-display: inline;
-	list-style-type: none;
-	margin-top: 2em;
-	padding-bottom:0;
-	padding-top:0.5em;
-	padding-left:0.5em;
-	border-style:none;
-	
-}
 
 div#submenu{
 	
@@ -280,8 +177,7 @@ border-style:none;
 
 
 
-
-div#menu {
+menu {
 	margin-left:20em;
 	padding-left:0em;
 	padding-right:5em;
@@ -333,7 +229,7 @@ display: inline;
 
 #aboutarea {
 	width: 700px;
-	height: 250px;
+	height: 400px;
 
 	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
 	margin: 0px auto;
@@ -368,13 +264,13 @@ display: inline;
 
 
 #abouttext	{
-	float: left;
+	float: right;
 	width: 300px;
 	height: 120px;
 		color: #FFF;
 
 	position: relative;
-	padding: 5px;
+	padding: 0px;
 	margin: 0px 10px 0px 0px;
 }
 
@@ -383,5 +279,6 @@ h7 {
 }
 h6 {
 	font-size: 12px;
-}
+	
+	}
 
