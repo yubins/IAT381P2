@@ -9,6 +9,12 @@ Body{
 #header {
 	width: 700px;
 	height: 100px;
+	background-image: url("images/headerimage3.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	position: relative;
+	vertical-align: middle;
 	margin: 0px auto;
 	}
 	
@@ -24,12 +30,36 @@ Body{
 	float:left;
 	width: 600px;
 	height: 100px;
-	background-color: gray;
 	position: relative;
 
 }
 
+#search {
+	display: table-cell;
+	width:150px;
+	height:20px;
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	margin: 50px 0px 50px 200px;
+	border-top-left-radius:1em;
+	border-top-right-radius:1em;
+	border-bottom-right-radius:1em;
+	border-bottom-left-radius:1em;
+	border-color: #F75A93;
+	
+	
+}
 
+#sbutton {
+	width:100px;
+	height:30px;
+	position:relative;
+	background-color: #F75A93;
+	font-size: 15px;
+	color: #FFFFFF;
+	border-radius: 10px;
+}
 
 
 #mainmenu{
