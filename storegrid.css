@@ -226,14 +226,168 @@ display: inline;
 
 
 	
-div#items{
+/*div#items{
 
 	
 	margin: 0px auto;
 	position:relative;
 	
 	
+}*/
+#dealscandy {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
 }
+
+#candy1 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+
+#candy2 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+#candy3 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 10.5px;
+	
+	background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+#candy4 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#dealscandy2 {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+#candy5 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+
+#candy6 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+#candy7 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 10.5px;
+	
+	background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+#candy8 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	background-color: #000000;
+	margin: 10.5px;
+	border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+   		  
 #linebreak{
 	width: 700px;
 	height: 30px;
