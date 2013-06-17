@@ -68,7 +68,7 @@ Body{
 #mainmenu{
 	
 	height: 50px;
-	width:700px;
+	width:665px;
 	margin: 0px auto;
 	border-style:none;
 	
@@ -109,6 +109,7 @@ A:active {
 display: inline;
 	list-style-type: none;
 	margin-top: 2em;
+	margin-right:10px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -117,8 +118,23 @@ display: inline;
 	
 }
 
+#viewchange{
+height: 40px;
+	width:100px;
+	position:relative;
+	margin:0px
+	border-style:none;
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	text-indent:0em;
+		padding-top:0.5px;
 
-div#viewchange{
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:0.5px;
+	border-radius:15px;
+	}
+/*div#viewchange{
 	
 	border-style:none;
 	margin-bottom:0em;
@@ -139,7 +155,7 @@ div#viewchange{
 	width:110px;
 	margin: 0px auto;
 	float:left;
-	}
+	}*/
 A:link {
 	text-decoration: none;
 	color:#FFF ;
