@@ -228,11 +228,11 @@ display: inline;
 	
 div#items{
 
-	text-indent:400px;
 	
 	margin: 0px auto;
 	position:relative;
-	vertical-align:middle;
+	
+	
 }
 #linebreak{
 	width: 700px;
