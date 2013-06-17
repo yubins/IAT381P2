@@ -137,7 +137,8 @@ div#viewchange{
 div#viewchange{
 	height:32px;
 	width:110px;
-	margin: 0px ;
+	margin: 0px auto;
+	float:left;
 	}
 A:link {
 	text-decoration: none;
@@ -227,22 +228,26 @@ display: inline;
 	
 div#items{
 
-
-
+	text-indent:400px;
 	
-	text-indent:2.5em;
-	
+	margin: 0px auto;
+	position:relative;
+	vertical-align:middle;
+}
+#linebreak{
+	width: 700px;
+	height: 30px;
+	margin: 0px auto;
+	border-top-style:solid;	
+	border-top-color: #F75A93;
+	border-right-style:none;
+	border-left-style:none;
 	border-bottom-style:solid;
-	border-color: #F13C76;
-	
-}
+	border-bottom-color: #F75A93;
 
-div#footerimage img{
-margin-left:60em;
-float:left;
+	}
 
 
-}
 <!--div#footertext {
 
 font-size:60%;
