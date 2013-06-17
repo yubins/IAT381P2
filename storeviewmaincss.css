@@ -65,7 +65,7 @@ Body{
 #mainmenu{
 	
 	height: 50px;
-	width:700px;
+	width:665px;
 	margin: 0px auto;
 	border-style:none;
 	
@@ -106,6 +106,7 @@ A:active {
 display: inline;
 	list-style-type: none;
 	margin-top: 2em;
+	margin-right:10px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -114,8 +115,22 @@ display: inline;
 	
 }
 
+#viewchange{
+height: 40px;
+	width:100px;
+	margin: 0px auto;
+	border-style:none;
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	text-indent:0em;
+		padding-top:0.5px;
 
-div#viewchange{
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:0.5px;
+	border-radius:15px;
+	}
+/*div#viewchange{
 	
 	border-style:none;
 	margin-bottom:0em;
@@ -134,8 +149,9 @@ div#viewchange{
 div#viewchange{
 	height:32px;
 	width:110px;
-	margin: 0px ;
-	}
+	margin: 0px auto;
+	float:left;
+	}*/
 A:link {
 	text-decoration: none;
 	color:#FFF ;
@@ -161,7 +177,9 @@ div#viewchange li:hover {
 div#viewchange li{
 display: inline;
 	list-style-type: none;
-	margin-top: 2em;
+	margin-top: 0px;
+	margin-bottom:1px;
+	margin-left:0px;
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -171,17 +189,17 @@ display: inline;
 
 div#submenu{
 	
-	height: 50px;
-	width:700px;
+	height: 40px;
+	width:665px;
 	margin: 0px auto;
 	border-style:none;
-	
+	font-size:14px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	text-indent:0em;
 	padding-top:0.5px;
 	padding-left:1em;
 	padding-right:1em;
-	padding-bottom:0.5px;
+	padding-bottom:5px;
 	border-radius:15px;
 }
 div#submenu{
@@ -206,11 +224,13 @@ div#submenu li:hover {
 	background: #FF91AF;
 	padding-top:1em;
 	padding-bottom:1em;	
+	border-radius:5px;
 }
 #submenu li{
 display: inline;
 	list-style-type: none;
 	margin-top: 2em;
+	margin-right:15px;
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -323,7 +343,7 @@ display: inline;
 	margin: 0px auto;
 	border: #F75A93;
 	border-bottom-style:solid;
-	border-width:5px;
+	border-width:2px;
 	position: relative;
 }
 
