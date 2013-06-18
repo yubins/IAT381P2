@@ -267,16 +267,28 @@ display: inline;
 	/*
 	background-color: #000000;*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy1.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-
+#candy1 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy1 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
 
 
 
@@ -289,28 +301,54 @@ display: inline;
 	background-color: #000000;
 	*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy2.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-
+#candy2 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy2 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
 
 #candy3 {
 	float:left;
 	width: 150px;
 	height: 150px;
-	background-color: #000000;
+	/*background-color: #000000;*/
 	margin: 10.5px;
 	
-	background-image: url("candy3.jpg");
+	/*background-image: url("candy3.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
+}
+
+#candy3 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy3 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
 }
 
 
@@ -319,15 +357,29 @@ display: inline;
 	float:left;
 	width: 150px;
 	height: 150px;
-	background-color: #000000;
+	/*background-color: #000000;*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy4.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
+}
+
+#candy4 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy4 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
 }
 #dealscandy2 {
 	width: 700px;
@@ -342,17 +394,29 @@ display: inline;
 	/*
 	background-color: #000000;*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy1.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
 
-
+#candy5 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy5 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
 
 
 
@@ -364,48 +428,84 @@ display: inline;
 	background-color: #000000;
 	*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy2.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-
+#candy6 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy6 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
 
 #candy7 {
 	float:left;
 	width: 150px;
 	height: 150px;
-	background-color: #000000;
+	/*background-color: #000000;*/
 	margin: 10.5px;
 	
-	background-image: url("candy3.jpg");
+	/*background-image: url("candy3.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-
+#candy7 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy7 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
 
 #candy8 {
 	float:left;
 	width: 150px;
 	height: 150px;
-	background-color: #000000;
+	/*background-color: #000000;*/
 	margin: 10.5px;
-	border: 2px solid;
+	/*border: 2px solid;
 	border-color: #F75A93; 
 	border-radius:25px;
 	background-image: url("candy4.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 
-
+#candy8 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy8 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
    		  
 #linebreak{
 	width: 700px;
