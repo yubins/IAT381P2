@@ -19,7 +19,7 @@ body { /* make everything at the middle*/
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
 	width: 700px;
-	height: 125px;
+	height: 100px;
 	margin: 0px auto;
 }
 
@@ -30,7 +30,7 @@ body { /* make everything at the middle*/
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	width:100px;
-	height:125px;
+	height:100px;
 	position: relative; /* without this it will be at the bottom of the page */
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;*/
@@ -46,7 +46,7 @@ body { /* make everything at the middle*/
 	float: left;
 	background-color: #000000;
 	width:600px;
-	height:125px;
+	height:100px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
 	margin:50px, 100px, 50px, 0px;*/
@@ -70,7 +70,7 @@ body { /* make everything at the middle*/
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-	margin: 50px 0px 50px 200px;
+	margin: 40px 0px 40px 200px;
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -94,14 +94,14 @@ h2 {
 	font-size: 30px;
 }
 
-
+/*
 #holder {
 	width: 700px;
 	height: 60px;
 	margin: 0px auto;
-	/*
+	
 	background-color: #000000;
-	*/
+	
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
@@ -118,18 +118,18 @@ h5{
 	float:left;
 	width: 175px;
 	height: 60px;
-	/*
+	
 	background-color: #4DEDF0;
-	*/
+	
 	position: relative;
 	vertical-align: middle;
-	/*
+	
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
-	*/
+	
 	border-bottom-style:none;
 	border-top-left-radius:1em;
 	border-top-right-radius:0em;
@@ -169,18 +169,18 @@ h5{
 	float:left;
 	width: 175px;
 	height: 60px;
-	/*
+	
 	background-color: #4DEDF0;
-	*/
+	
 	position: relative;
 	vertical-align: middle;
-	/*
+	
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
-	border-bottom-style:none;*/
+	border-bottom-style:none;
 }
 
 #ctext {
@@ -214,18 +214,18 @@ h5{
 	float:left;
 	width: 175px;
 	height: 60px;
-	/*
+	
 	background-color: #4DEDF0;
-	*/
+	
 	position: relative;
 	vertical-align: middle;
-	/*
+	
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
-	border-bottom-style:none;*/
+	border-bottom-style:none;
 }
 
 #btext {
@@ -258,9 +258,6 @@ h5{
 	float:left;
 	width: 172px;
 	height: 60px;
-	/*
-	background-color: #4DEDF0;
-	*/
 	position: relative;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
@@ -268,10 +265,69 @@ h5{
 	border-bottom-left-radius:0em;
 }
 
+*/
+
+/* menu is different, cause we want the same style page, we decide to use my partner's menu bar, but i will get some effect on it.*/
+
+#mainmenu{
+	
+	height: 50px;
+	width:665px;
+	margin: 0px auto;
+	border-style:none;
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	text-indent:0em;
+	padding-top:0.5px;
+
+	padding-left:1em;
+	padding-right:1em;
+	padding-bottom:0.5px;
+	border-radius:15px;
+}
+#mainmenu{
+	margin-top:2em;
+	}
+A:link {
+	text-decoration: none;
+	color:#FFF ;
+	opacity: .9;
+}
+A:visited { 
+	text-decoration: none;
+	color: #FFF;
+}
+A:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#mainmenu li:hover {
+	background: #FF91AF;
+	
+	padding-top:2px;
+	padding-bottom:2px;	
+	border-radius:25px;
+}
+#mainmenu li{
+	display: inline;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-right:10px;/*spreads out the items in main menu for better spacing*/
+	padding-bottom:0;
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	border-style:none;
+	-moz-transition: background-color, color 2s;
+	-webkit-transition:background-color, color 2s;
+	-o-transition: background-color, color, 2s;
+	transition: background-color, color, 2s;	
+	
+}
 
 
 #welcome {
-	/*background-color:#000000;*/
 	width: 700px;
 	height: 300px;
 	margin: 0px auto;
@@ -326,7 +382,6 @@ h3 {
 	width: 700px;
 	height:200px;
 	margin: 0px auto;
-	/*background-color: #575254;*/ /* used to text where is box */
 }
 
 
