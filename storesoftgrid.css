@@ -104,7 +104,7 @@ A:active {
 	border-radius:5px;
 }
 #mainmenu li{
-display: inline;
+	display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:10px;/*spreads out the items in main menu for better spacing*/
@@ -116,14 +116,8 @@ display: inline;
 	
 }
 
-#mpop{
-	
-	background: #FF91AF;
-	border-radius:5px;
-	}
-
 #viewchangeholder {
-	height: 35px;
+	height: 40px;
 	width: 700px;
 	/*
 	background-color: black;*/
@@ -253,24 +247,282 @@ display: inline;
 
 
 	
-div#items{
-
-
+/*div#items{
 
 	
-	text-indent:2.5em;
+	margin: 0px auto;
+	position:relative;
 	
+	
+}*/
+#dealscandy {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+
+#candy1 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy1 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy1 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+
+
+
+#candy2 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy2 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy2 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+#candy3 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	
+	/*background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy3 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy3 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+
+
+#candy4 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy4 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy4 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+#dealscandy2 {
+	width: 700px;
+	height:200px;
+	margin: 0px auto;
+	/*background-color: #575254;*/ /* used to text where is box */
+}
+#candy5 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+
+#candy5 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy5 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+
+
+#candy6 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*
+	background-color: #000000;
+	*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy2.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy6 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy6 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+#candy7 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	
+	/*background-image: url("candy3.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy7 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy7 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+
+#candy8 {
+	float:left;
+	width: 150px;
+	height: 150px;
+	/*background-color: #000000;*/
+	margin: 10.5px;
+	/*border: 2px solid;
+	border-color: #F75A93; 
+	border-radius:25px;
+	background-image: url("candy4.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;*/
+}
+
+#candy8 img{
+	border-radius:5px;
+	border: 3px solid;
+	border-color:rgba(0,0,0,0.5);
+	}
+#candy8 :hover {
+	
+	
+	
+	border: 3px solid;
+	border-color: #F75A93; 
+	border-radius:5px;
+}
+   		  
+#linebreak{
+	width: 700px;
+	height: 30px;
+	margin: 0px auto;
+	border-top-style:solid;	
+	border-top-color: #F75A93;
+	border-right-style:none;
+	border-left-style:none;
 	border-bottom-style:solid;
-	border-color: #F13C76;
-	
-}
+	border-bottom-color: #F75A93;
 
-div#footerimage img{
-margin-left:60em;
-float:left;
+	}
 
 
-}
 <!--div#footertext {
 
 font-size:60%;
@@ -341,98 +593,3 @@ display: inline;
 	margin-right:0.5em;
 	}
 
-#rowview {
-	width: 700px;
-	height: 900px;
-	margin: 0px auto;
-}
-
-#product {
-	width: 700px;
-	height: 170px;
-	/*background-color: #FFFFFF;*/
-	margin: 0px auto;
-	border: #F75A93;
-	border-bottom-style:solid;
-	border-width:2px;
-	position: relative;
-}
-
-#box1 {
-	width: 550px;
-	height: 120px;
-	/*
-	background-color: #FF0000;*/
-	margin: 25px 20px 25px 20px;
-	}
-
-
-#productimage {
-	float: left;
-	width: 120px;
-	height: 120px;
-	/*background-color: #000000;*/
-	border-radius: 10px;
-	position: relative;
-	margin: 0px 30px 0px 0px;
-	
-	/*background-image: url("candy2.jpg");
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;*/
-}
-
-#productimage img{
-	border-radius:5px;
-	border: 3px solid;
-	border-color: rgba(0,0,0,0.5);
-	}
-	
-#productimage :hover {
-	
-	
-	
-	border: 3px solid;
-	border-color: #F75A93; 
-	border-radius:5px;
-}
-
-#prodtext	{
-	float: left;
-	width: 300px;
-	height: 120px;
-	
-	position: relative;
-	padding: 5px;
-	margin: 0px 10px 0px 0px;
-}
-
-h7 {
-	font-size: 20px;
-	color: #F75A93;
-}
-
-h6{
-	font-size: 12px;
-		
-
-
-#cart {
-	float: left;
-	width: 80px;
-	height: 120px;
-	position: relative;
-	vertical-align: middle;
-	text-align: center;
-}
-
-#cartbutton {
-	width:80px;
-	height:30px;
-	position:relative;
-	margin: 45px 0px 45px 0px;
-	background-color: #6EDDFF;
-	font-size: 10px;
-	color: #FFFFFF;
-	border-radius: 5px;
-	}
