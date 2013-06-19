@@ -123,11 +123,13 @@ h5{
 	*/
 	position: relative;
 	vertical-align: middle;
+	/*
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
+	*/
 	border-bottom-style:none;
 	border-top-left-radius:1em;
 	border-top-right-radius:0em;
@@ -172,12 +174,13 @@ h5{
 	*/
 	position: relative;
 	vertical-align: middle;
+	/*
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
-	border-bottom-style:none;
+	border-bottom-style:none;*/
 }
 
 #ctext {
@@ -216,12 +219,13 @@ h5{
 	*/
 	position: relative;
 	vertical-align: middle;
+	/*
 	border-top-style:none;
 	border-right-style:solid;
 	border-right-color: #E8E8E8;
 	border-right-width: 1px;
 	border-left-style:none;
-	border-bottom-style:none;
+	border-bottom-style:none;*/
 }
 
 #btext {
