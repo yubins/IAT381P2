@@ -63,8 +63,6 @@ Body{
 
 
 
-
-
 #mainmenu{
 	
 	height: 50px;
@@ -106,7 +104,7 @@ A:active {
 	border-radius:5px;
 }
 #mainmenu li{
-display: inline;
+	display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:10px;/*spreads out the items in main menu for better spacing*/
@@ -120,7 +118,7 @@ display: inline;
 
 #viewchangeholder {
 	height: 40px;
-	width: 665px;
+	width: 700px;
 	/*
 	background-color: black;*/
 	margin: 0px auto;
@@ -130,7 +128,6 @@ display: inline;
 	float: left;
 	height: 40px;
 	width: 100px;
-	/*
 	margin: 0px auto;*/
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
