@@ -355,7 +355,7 @@ h2 {
 /*contact page from here*/
 #cbox {
 	width: 700px;
-	height: 950px;
+	height: 1050px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	background-color:rgba(255,255,255,0.5); /*just opacity the background not everything*/
@@ -366,7 +366,7 @@ h2 {
 
 #contactlist {
 	width: 600px;
-	height: 800px;
+	height: 950px;
 	position: absolute;
 	background-color: #FFFFFF;
 	margin: 50px 50px 50px 50px;
@@ -450,7 +450,8 @@ h8{
 	width: 500px;
 	height: 30px;
 	margin: 0px 0px 0px 40px;
-	background-color: #F0F0F0;
+	/*
+	background-color: #F0F0F0;*/
 	font-size: 12px;
 }
 .n input {
@@ -474,42 +475,101 @@ h8{
 
 h9 {
 	position: relative;
-	position: absolute; bottom: 0; left:0;
+	position: absolute; bottom: 5px; left:5px; top 5px; right 5px;
 	text-align: left;
-	font-size: 15px;
+	font-size: 5px;
 }
+
+#et {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 30px;
+	}
+
+#ei {
+	position: relative;
+	float: left;
+	width: 400px;
+	height: 30px;
+}
+
+.e input {
+	position: absolute;
+	margin: 5px 5px 5px 90px;
+}
+
 .e{
 	width: 500px;
 	height: 30px;
 	margin: 0px 0px 0px 40px;
-	background-color: #F0F0FF;
+	/*
+	background-color: #F0F0FF;*/
 }
 
-#s{
+.s{
 	width: 500px;
 	height: 30px;
 	margin: 0px 0px 0px 40px;
-	background-color: #F0F0FF;
+	/*
+	background-color: #F0F0FF;*/
+}
+
+.s input {
+	position: absolute;
+	margin: 5px 5px 5px 90px;
 }
 
 
-#m{
+.m{
 	width: 500px;
 	height: 60px;
 	margin: 20px 20px 20px 40px;
-	background-color: #F0F0FF;
+	/*
+	background-color: #F0F0FF;*/
+}
+
+.m input {
+	position: absolute;
+	margin: 5px 5px 5px 90px;
+}
+
+
+#submit {
+	position: relative;
+	width: 500px;
+	height: 40px;
+	margin: 20px 20px 20px 40px;
+	border-style: none none dotted none;
+}
+
+#submitbutton {
+	width:200px;
+	height:30px;
+	position:relative;
+	background-color: #F75A93;
+	font-size: 15px;
+	color: #FFFFFF;
+	border-radius: 10px;
+	margin: 0px 150px 0px 150px;
 }
 
 
 
 /* here is the botton part of the home page is exactly the same*/
+#x {
+	width:700px;
+	height: 120px;
+	margin: 0px auto;
+}
+
 
 #more {
 	width:700px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
-	position: relative;
+	position: absolute;
 	vertical-align: middle;
 }
 
