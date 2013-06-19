@@ -125,12 +125,12 @@ display: inline;
 
 #viewchange{
 	float: left;
-	height: 35px;
-	width: 90px;
-	margin: 0px auto;
+	height: 40px;
+	width: 100px;
+	margin: 0px auto;*/
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	padding-top:0.5px;
+	text-indent:0em;
 
 	padding-right:1em;
 	padding-bottom:0.5px;
@@ -186,8 +186,7 @@ display: inline;
 	margin-top: 0px;
 	margin-bottom:1px;
 	margin-left:0px;
-	padding-bottom:0.5em;
-	padding-top:0.5em;
+	padding-bottom:0;
 	border-style:none;
 	
 }
