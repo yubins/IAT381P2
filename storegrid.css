@@ -132,7 +132,6 @@ A:active {
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	text-indent:0em;
-	padding-top:0.5px;
 
 	padding-right:1em;
 	padding-bottom:0.5px;
@@ -189,8 +188,6 @@ display: inline;
 	margin-bottom:1px;
 	margin-left:0px;
 	padding-bottom:0;
-	padding-top:0.5em;
-	padding-left:0.5em;
 	border-style:none;
 	
 }
