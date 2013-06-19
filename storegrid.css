@@ -118,15 +118,24 @@ display: inline;
 	
 }
 
-#viewchange{
-height: 40px;
-	width:100px;
+#viewchangeholder {
+	height: 40px;
+	width: 665px;
+	/*
+	background-color: black;*/
 	margin: 0px auto;
+}
+
+#viewchange{
+	float: left;
+	height: 40px;
+	width: 100px;
+	/*
+	margin: 0px auto;*/
 	border-style:none;
-	
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	text-indent:0em;
-		padding-top:0.5px;
+	padding-top:0.5px;
 
 	padding-left:1em;
 	padding-right:1em;
