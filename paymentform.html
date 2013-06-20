@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
 	<head><title>Candy Box Store</title>
-	<link rel="icon" 
-      type="image/png" 
-      href="images/CANDYBOXLOGOPINK.png" width="1" height="1">
+	
       <link rel="stylesheet" type="text/css" href="paymentform.css"/>
 	</head>
 	<body>
 		
 		<div id="header">
-			<div id="mainlogo"> <a href="test.html"><img src="images/CANDYBOXLOGOPINK.png" width="100" height="100"></a></div>
+			<div id="mainlogo"> <a href="test.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo" width="100" height="100"></a></div>
 			<div id="logoimg"><!--<img src="images/headerimage3.png"  height="100"> -->	<label for="search"></label>
-						<input id="search" search="search" type="text" placeholder="type of candy" required autofocus/>
+						<input id="search"  type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>	</div>
 			
 		</div>
@@ -30,108 +28,91 @@
 				</ul>
 			</nav>
 		</div>
-		<br>
+		<br/>
 		
-		
-	
+
 		<div id="rowview"> 
 			
 			<div id="paymentform">
 				<div id="box1">
 					
-					<div id="paytext">
-						<p><h7>Name:</h7>
-						</p>
-						
-						<input id="number" number="search" type="text" placeholder="First and Last" required autofocus/>
-						
+					<div class="paytext">
+						<br/>
+						<p>Name:</p>
+						<input class="number"  type="text" placeholder="First and Last" required autofocus/>
 					</div>
-					</br>
-					<div id="paytext">
-						<p><h7>Address: </h7>
-						</p>
-						
-						
-						<input id="number" number="search" type="text" placeholder="1234 1st Ave" required autofocus/>
-						
-					</div>
-					</br>
-					<div id="paytext">
-						<p><h7>City:</h7>
-						</p>
-						
-						
-						<input id="number" number="search" type="text" placeholder="Vancouver" required autofocus/>
-						
-					</div>
-				</br>
-				<div id="paytext">
-						<p><h7>Postal Code:</h7>
-						</p>
-						
-						
-						<input id="number" number="search" type="text" placeholder="V1V 1V1" required autofocus/>
-						
-					</div>
-				</br>
-				<div id="paytext">
-						<p><h7>Province:</h7>
-						</p>
-						
-						
-						<input id="number" number="search" type="text" placeholder="BC" required autofocus/>
-						
+					
+					<br/>
+					
+					<div class="paytext">
+						<p>Address: </p>
+						<input class="number"  type="text" placeholder="1234 1st Ave" required autofocus/>
 						
 					</div>
 					
-							
-						<fieldset>
-				<legend>Card Details</legend>
-					<div id="payment">
-						<li>
-							<input id="visa" name="cardtype" type="radio" />
-							<label for="visa">VISA</label>
-							
-							
-							
-							
-						</li>
+					<br/>
+					
+					<div class="paytext">
+						<p>City:</p>
+						<input class="number"  type="text" placeholder="Vancouver" required autofocus/>
 						
-						<li>
-						<input id="mastercard" name="cardtype" type="radio" />
-							<label for="mastercard">MASTERCARD</label>
-						</li>
-						
-						<li>
-						<input id="amex" name="cardtype" type="radio" />
-							<label for="amex">AMEX</label>
-						</li>
 					</div>
+					
+					<br/>
+					
+					<div class="paytext">
+						<p>Postal Code:</p>
+						<input class="number"  type="text" placeholder="V1V 1V1" required autofocus/>
+					
+					</div>
+					
+					<br/>
+					
+					<div class="paytext">
+						<p>Province:</p>
+						<input class="number"  type="text" placeholder="BC" required autofocus/>
+						
+					</div>
+					
+					<br/>		
+					<fieldset>
+				
+						<legend>Card Details</legend>
+				
+						<div id="payment">
+							<li>
+								<input id="visa" name="cardtype" type="radio" />
+								<label for="visa">VISA</label>
+							</li>
+						
+							<li>
+							<input id="mastercard" name="cardtype" type="radio" />
+								<label for="mastercard">MASTERCARD</label>
+							</li>
+						
+							<li>
+							<input id="amex" name="cardtype" type="radio" />
+								<label for="amex">AMEX</label>
+							</li>
+						</div>
+					
 						<div id="cardtext">
+							<input class="number"  type="text" placeholder="Enter Credit Card #" required autofocus/>
 						
-						
-						
-						<input id="number" number="search" type="text" placeholder="Enter Credit Card #" required autofocus/>
-						
-						
-					</div>
-			</fieldset>	
-		<div id="back"> 
+						</div>
+				</fieldset>	
+				
+				<div id="back"> 
 					<div id="backbuttonbox">
-					<button type="button" id="backbutton" onclick="location.href='#product">PLACE<br/>ORDER</button>
-					</div>
+					<button type="button" id="backbutton" onclick="location.href='#product'">PLACE<br/>ORDER</button>
 					</div>
 				</div>
 			</div>
-			
-			
-			
-					
-					
-					
+		</div>
+	
 				</div>
-			</div>
-<br>
+			
+<br/>
 <div id="footerimage">
 			
 			
