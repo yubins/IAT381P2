@@ -295,7 +295,7 @@ display: inline;
 #abouttext	{
 	float: right;
 	width: 300px;
-	height: 120px;
+	height: 100px;
 		color: #FFF;
 
 	position: relative;
@@ -303,10 +303,10 @@ display: inline;
 	margin: 0px 10px 0px 0px;
 }
 
-h7 {
+#subtitle {
 	font-size: 30px;
 }
-h6 {
+p {
 	font-size: 12px;
 	
 	}
