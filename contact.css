@@ -342,8 +342,8 @@ A:active {
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	opacity: .8;
-	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
+	/*opacity: .8;
+	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
 }
 
 
@@ -358,17 +358,19 @@ h2 {
 	height: 1050px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
-	background-color:rgba(255,255,255,0.5); /*just opacity the background not everything*/
+	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
+	border-radius: 15px;
 }
 
 #contactlist {
 	width: 600px;
 	height: 950px;
 	position: absolute;
-	background-color: #FFFFFF;
+	/*
+	background-color: #FFFFFF;*/
 	margin: 50px 50px 50px 50px;
 	font-size: 20px;
 }
@@ -379,7 +381,9 @@ h2 {
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none dotted none;
+	border-style: none none solid none;
+	color: #FFFFFF;
+	border-width: 1px;
 }
 
 #detail {
@@ -388,7 +392,9 @@ h2 {
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none dotted none;
+	border-style: none none solid none;
+	border-width: 1px;
+	color: #FFFFFF;
 }
 
 #mapbox {
@@ -435,7 +441,8 @@ h8{
 	width: 600px;
 	height: 400px;
 	position: relative;
-	background-color: #FFFFFF;
+	/*
+	background-color: #FFFFFF;*/
 	margin: 0px auto;
 }
 
@@ -443,7 +450,9 @@ h8{
 	width: 500px;
 	height: 40px;
 	margin: 20px 20px 20px 40px;
-	border-style: none none dotted none;
+	border-style: none none solid none;
+	color: #FFFFFF;
+	border-width: 1px;
 }
 
 .n {
@@ -453,6 +462,7 @@ h8{
 	/*
 	background-color: #F0F0F0;*/
 	font-size: 12px;
+	color: #FFFFFF;
 }
 .n input {
 	position: absolute;
@@ -480,14 +490,15 @@ h9 {
 	font-size: 5px;
 }
 
-#et {
+.et {
 	position: relative;
 	float: left;
 	width: 100px;
 	height: 30px;
+	color: #FFFFFF;
 	}
 
-#ei {
+.ei {
 	position: relative;
 	float: left;
 	width: 400px;
@@ -543,7 +554,9 @@ h9 {
 	width: 500px;
 	height: 40px;
 	margin: 20px 20px 20px 40px;
-	border-style: none none dotted none;
+	border-style: none none solid none;
+	color: #FFFFFF;
+	border-width: 1px;
 }
 
 #submitbutton {

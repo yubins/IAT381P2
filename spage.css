@@ -321,7 +321,8 @@ A:active {
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-image: url("result.jpg");
+	/*
+	background-image: url("result.jpg");*/X
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -340,19 +341,20 @@ A:active {
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	opacity: .8;
-	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
+	/*opacity: .8;
+	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
+	
 }
 
 
 h2 {
-	color: #FFFFFF;
-	font-size: 30px;
+	color: #F75A93;
+	font-size: 40px;
 }
 
 #rbox {
 	width: 700px;
-	height: 900px;
+	height: 980px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	/*
@@ -366,9 +368,8 @@ h2 {
 	/*background-color: #FFFFFF;*/
 	margin: 0px auto;
 	border: #F75A93;
-	border-style:solid;
-	border-width:5px;
-	border-radius: 25px;
+	border-style: none none solid none;
+	border-width:3px;
 	position: relative;
 }
 
@@ -405,7 +406,7 @@ h2 {
 	margin: 0px 10px 0px 0px;
 }
 
-h7 {
+.h7 {
 	font-size: 12px;
 }
 
