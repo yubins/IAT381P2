@@ -99,22 +99,21 @@ A:active {
 }
 
 #mainmenu li:hover {
+	text-decoration: none;
+	color: #FFF;
 	
 	
-	background: #FF91AF;
-	padding-top:1em;
-	padding-bottom:1em;	
-	border-radius:5px;
 }
 #mainmenu li{
 display: inline;
 	list-style-type: none;
-	margin-right:100px;/*spreads out the items in main menu for better spacing*/
+	margin-right:5px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
+	font-size:20px;
 	
 }
 
