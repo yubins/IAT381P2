@@ -3,6 +3,10 @@
 	<head><title>Candy Box Store</title>
 	
       <link rel="stylesheet" type="text/css" href="paymentform.css"/>
+      <link rel="stylesheet" media="(max-width:480px)" type="text/css" href="paymentformstyle.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
+
+    <!--<meta name="viewport" content="width=device-width">-->
+    <meta name="viewport" content="width=480">
 	</head>
 	<body>
 		
@@ -40,6 +44,7 @@
 				<div id="box1">
 					
 					<div class="paytext">
+						<p>Please enter all the information correctly below so we can process your order!</p>
 						<br/>
 						<p>Name:</p>
 						<input class="number"  type="text" placeholder="First and Last" required autofocus/>

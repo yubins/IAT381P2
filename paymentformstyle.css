@@ -1,4 +1,3 @@
-
 Body{
 	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
 	background-position: 0% 0%;
@@ -7,7 +6,7 @@ Body{
 	}
 
 #header {
-	width: 700px;
+	width: 480px;
 	height: 100px;
 	background-image: url("images/headerimage3.png");
 	background-size: cover;
@@ -20,8 +19,8 @@ Body{
 	
 #mainlogo{
 	float:left;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	background-color: #000000;
 	position:relative;
 	}
@@ -29,19 +28,18 @@ Body{
 #logoimg {
 	float:left;
 	width: 600px;
-	height: 100px;
+	height: 50px;
 	position: relative;
 
 }
 
 #search {
 	display: table-cell;
-	width:150px;
+	width:120px;
 	height:20px;
 	position: relative;
-	vertical-align: middle;
 	text-align: center;
-	margin: 50px 0px 50px 200px;
+	margin: 0px 0px 50px 200px;
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -52,20 +50,25 @@ Body{
 }
 
 #sbutton {
-	width:100px;
+	width:80px;
 	height:30px;
 	position:relative;
 	background-color: #F75A93;
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 10px;
+		margin: 0px 0px 0px 20px;/*helps move search button position*/
+
 }
+
+
+
 
 
 #mainmenu{
 	
-	height: 50px;
-	width:665px;
+	height: 90px;
+	width:450px;
 	margin: 0px auto;
 	border-style:none;
 	
@@ -77,6 +80,7 @@ Body{
 	padding-right:1em;
 	padding-bottom:0.5px;
 	border-radius:15px;
+	
 }
 #mainmenu{
 	margin-top:2em;
@@ -95,149 +99,25 @@ A:active {
 }
 
 #mainmenu li:hover {
+	text-decoration: none;
+	color: #FFF;
 	
 	
-	background: #FF91AF;
-	padding-top:1em;
-	padding-bottom:1em;	
-	border-radius:5px;
 }
 #mainmenu li{
 display: inline;
 	list-style-type: none;
-	margin-top: 2em;
-	margin-right:10px;/*spreads out the items in main menu for better spacing*/
+	margin-right:5px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
+	font-size:20px;
 	
 }
 
-#viewchange{
-height: 40px;
-	width:100px;
-	margin: 0px auto;
-	border-style:none;
-	
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-		padding-top:0.5px;
 
-	padding-left:1em;
-	padding-right:1em;
-	padding-bottom:0.5px;
-	border-radius:15px;
-	}
-/*div#viewchange{
-	
-	border-style:none;
-	margin-bottom:0em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	font-size:60%;
-		border-radius:15px;
-
-}
-div#viewchange{
-	height:32px;
-	width:110px;
-	margin: 0px auto;
-	float:left;
-	}*/
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-div#viewchange li:hover {
-	
-	
-	background: #FF91AF;
-	padding-top:20px;
-	padding-bottom:0em;
-	
-	
-}
-div#viewchange li{
-display: inline;
-	list-style-type: none;
-	margin-top: 0px;
-	margin-bottom:1px;
-	margin-left:0px;
-	padding-bottom:0;
-	padding-top:0.5em;
-	padding-left:0.5em;
-	border-style:none;
-	
-}
-
-div#submenu{
-	
-	height: 40px;
-	width:665px;
-	margin: 0px auto;
-	border-style:none;
-	font-size:14px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.5px;
-	padding-left:1em;
-	padding-right:1em;
-	padding-bottom:5px;
-	border-radius:15px;
-}
-div#submenu{
-	margin-top:2em;
-	}
-A:link {
-	text-decoration: none;
-	color:#FFF ;
-}
-A:visited { 
-	text-decoration: none;
-	color: #FFF;
-}
-A:active {
-	text-decoration: none;
-	color: #FFF;
-}
-
-div#submenu li:hover {
-	
-	
-	background: #FF91AF;
-	padding-top:1em;
-	padding-bottom:1em;	
-	border-radius:5px;
-}
-#submenu li{
-display: inline;
-	list-style-type: none;
-	margin-top: 2em;
-	margin-right:15px;
-	padding-bottom:0;
-	padding-top:0.5em;
-	padding-left:0.5em;
-	padding-right:0.5em;
-	border-style:none;
-	
-}
 
 
 
@@ -254,28 +134,8 @@ div#items{
 	
 }
 
-div#footerimage img{
-margin-left:60em;
-float:left;
 
 
-}
-<!--div#footertext {
-
-font-size:60%;
-border-style:none;
-	margin-bottom:0em;
-	margin-right:48em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	float:right;
-}-->
 
 
 
@@ -304,35 +164,60 @@ div#menu {
 }
 	
 #footer {
-	width:700px;
-	height: 0px;
+	width:480px;
+	height: 120px;
 	margin: 0px auto;
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	background-color: #575254;
+	position: relative;
+	vertical-align: middle;
 }
 
 h4 {
 	color: #FFFFFF;
-	size: 5px;
+	size: 15px;
 }
 
-#fnote {
+#footertext {
 	display: table-cell;
-	width: 700px;
-	height: 50px;
-	margin:0px auto;
+	width: 480px;
+	height: 120px;
+	position: relative;
+	vertical-align:middle;
 	text-align: center;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-
 }
-#fnote li{
-display: inline;
+
+nav ul li {
+	display: inline;
 	list-style: none;
 	margin-right:0.5em;
-	}
+}
+
+#footertext a:link {
+   		  color: #FFFFFF;
+		  text-decoration: none;
+  		  opacity: .8;
+  		  }
+#footertext a:visited {
+  		 color: #FFFFFF;
+  	     opacity: .1;	
+  		  }
+#footertext a:hover {
+   		  text-decoration: none;
+  		  color: #FFFFFF;
+   		  opacity: 1;
+   		  }
+#footertext a:active {
+   		  text-decoration: none;
+   		  color: #FFFFFF;
+   		  opacity:.7;
+   		  }
+   		  
+
 
 #rowview {
-	width: 700px;
-	height: 600px;
+	width: 480px;
+	height: 750px;
 	margin: 0px auto;
 	background-color:rgba(0,0,0,0.5);
 	border-radius:15px;
@@ -354,7 +239,7 @@ display: inline;
 	height: 100px;
 	/*
 	background-color: #FF0000;*/
-	margin: 25px 20px 25px 20px;
+	margin: 25px 20px 25px 150px;
 	}
 
 
@@ -367,19 +252,21 @@ display: inline;
 	
 	position: relative;
 	padding: 5px;
-	margin: 0px 10px 0px 0px;
+	margin: 0px 100px 0px 0px;
 }
 
-h7 {
+p {
 	font-size: 16px;
 	color: #FFF;
 }
 
-p{
-color:#FFF;
-}
+
 legend{
 color:#FFF;
+}
+
+fieldset{
+width:150px;
 }
 
 #payment li {
@@ -392,7 +279,7 @@ color:#FFF;
 #back {
 	width: 500px;
 	height: 100px;
-	margin: 0px 20px 20px 300px;
+	margin: 0px 10px 20px 5px;
 }
 
 #backbuttonbox {
@@ -400,7 +287,7 @@ color:#FFF;
 	height: 50px;
 	/*
 	background-color:#000000;*/
-	margin: 25px 66.6px 25px 66.6px;
+	margin: 25px 500px 25px 0px;
 	position: absolute;
 }
 
