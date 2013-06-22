@@ -43,6 +43,14 @@ body { /* make everything at the middle*/
 	
 }
 
+#mainlogo{
+	float:left;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	position:relative;
+	}
+
 #candyimage {
 	float: left;
 	background-color: #000000;
@@ -50,11 +58,11 @@ body { /* make everything at the middle*/
 	height:100px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
-	margin:50px, 100px, 50px, 0px;*/
+	margin:50px, 100px, 50px, 0px;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;
+	border-bottom-left-radius:0em;*/
 	background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;

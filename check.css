@@ -43,6 +43,15 @@ body { /* make everything at the middle*/
 	
 }
 
+
+#mainlogo{
+	float:left;
+	width: 100px;
+	height: 100px;
+	background-color: #000000;
+	position:relative;
+	}
+
 #candyimage {
 	float: left;
 	background-color: #000000;
@@ -50,11 +59,11 @@ body { /* make everything at the middle*/
 	height:100px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
-	margin:50px, 100px, 50px, 0px;*/
+	margin:50px, 100px, 50px, 0px;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;
+	border-bottom-left-radius:0em;*/
 	background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -342,8 +351,8 @@ A:active {
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	/*opacity: .8;*/
-	/*text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
+	opacity: .8;
+	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
 }
 
 
@@ -358,21 +367,17 @@ h2 {
 	height: 500px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
-	/*
-	background-color:rgba(255,255,255,0.5);*/ /*just opacity the background not everything*/
+	background-color:rgba(255,255,255,0.5); /*just opacity the background not everything*/
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.5);
-	border-radius: 15px;
 }
 
 #checklist {
 	width: 600px;
 	height: 400px;
 	position: absolute;
-	/*
-	background-color: rgba(0,0,0,0.5);*/
+	background-color: #FFFFFF;
 	margin: 50px 50px 50px 50px;
 	font-size: 20px;
 }
@@ -383,14 +388,7 @@ h2 {
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-color: #FFFFFF;
-	border-width: 1px;
-}
-
-#h5 {
-	font-size: 20px;
-	color: #FFFFFF;
+	border-style: none none dotted none;
 }
 
 #detail {
@@ -399,9 +397,7 @@ h2 {
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: #FFFFFF;
+	border-style: none none dotted none;
 }
 
 #listbox {
@@ -409,7 +405,6 @@ h2 {
 	width: 300px;
 	height 100px;
 	font-size: 12px;
-	color: #FFFFFF;
 }
 
 
@@ -420,7 +415,6 @@ h2 {
 	height 100px;
 	font-size:12px;
 	list-style-type: none;
-	color: #FFFFFF;
 }
 
 #total {
@@ -436,7 +430,6 @@ h2 {
 	width: 300px;
 	height 50px;
 	font-size: 12px;
-	color: #FFFFFF;
 	/*
 	background-color: #000000;*/
 }
@@ -447,7 +440,6 @@ h2 {
 	width: 200px;
 	height 50px;
 	font-size:12px;
-	color: #FFFFFF;
 	/*
 	background-color:#000000;*/
 	
