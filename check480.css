@@ -20,7 +20,7 @@ body { /* make everything at the middle*/
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
 	width: 700px;
-	height: 125px;
+	height: 50px;
 	margin: 0px auto;
 }
 
@@ -28,32 +28,31 @@ body { /* make everything at the middle*/
 	float: left;
 	/*
 	background-color:#FAC8D9;
-	*/
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);*/
 	width:100px;
 	height:100px;
 	position: relative; /* without this it will be at the bottom of the page */
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;*/
-	/*margin:50px, 0px, 50px, 100px;*/
+	/*margin:50px, 0px, 50px, 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:0em;
 	border-bottom-right-radius:0em;
 	border-bottom-left-radius:1em;
-	
+	*/
 }
 
 #mainlogo{
 	float:left;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	background-color: #000000;
 	position:relative;
 	}
 	
-	
 #mimage {
-    height: 100px;
+    height: 50px;
 }
 
 img {
@@ -64,15 +63,16 @@ img {
 #candyimage {
 	float: left;
 	background-color: #000000;
-	width:600px;
-	height:100px;
+	width:430px;
+	height:50px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
 	margin:50px, 100px, 50px, 0px;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;*/
+	border-bottom-left-radius:0em;
+	*/
 	background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,7 +82,6 @@ img {
 }
 
    		  
-   		  
 #search {
 	display: table-cell;
 	width:150px;
@@ -90,7 +89,7 @@ img {
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-	margin: 40px 0px 40px 200px;
+	margin: 15px 0px 15px 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -100,11 +99,11 @@ img {
 }
 
 #sbutton {
-	width:100px;
+	width:80px;
 	height:30px;
 	position:relative;
 	background-color: #F75A93;
-	font-size: 15px;
+	font-size: 12px;
 	color: #FFFFFF;
 	border-radius: 10px;
 }
@@ -115,15 +114,13 @@ h2 {
 }
 
 #mainmenu{
-	
+	display:none;
 	height: 50px;
-	width:665px;
+	width:300px;
 	margin: 0px auto;
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	background:-moz-linear-gradient(right,#F75A93,#F75A73);
 	text-indent:0em;
 	padding-top:0.5px;
 
@@ -157,10 +154,10 @@ A:active {
 	border-radius:25px;
 }
 #mainmenu li{
-	display: inline;
+	display: hide;
 	list-style-type: none;
-	margin-top: 2em;
-	margin-right:10px;/*spreads out the items in main menu for better spacing*/
+	margin-top: 1em;
+	margin-right: 1px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -169,22 +166,22 @@ A:active {
 	-moz-transition: background-color, color 2s;
 	-webkit-transition:background-color, color 2s;
 	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	transition: background-color, color, 2s;
+	font-size: 10px;
 	
 }
 
-
-
-
 #mainmenu2{
-	display: none;
+	display: run-in;
 	width: 300px;
 	height: 80px;
-	margin: 0px auto;
+
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	border-radius:15px;	
+	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
 }
 
 #menu480{
@@ -270,15 +267,13 @@ A:active {
 }
 
 
-
 /*result text on the image*/
 
 
 
 #checkout {
-	width: 700px;
-	height: 200px;
-	margin: 0px auto;
+	width: 400px;
+	height: 171.43px;
 	position: relative;
 	vertical-align: middle;
 	background-image: url("check.jpg");
@@ -289,6 +284,8 @@ A:active {
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
 	border-bottom-left-radius:1em;
+	margin: 0px 40px 0px 40px;
+	/*margin: 0px auto;*/
 
 }
 
@@ -311,35 +308,36 @@ h2 {
 
 /*check our page from here*/
 #cbox {
-	width: 700px;
-	height: 500px;
+	width: 400px;
+	height: 450px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	/*
 	background-color:rgba(255,255,255,0.5);*/ /*just opacity the background not everything*/
-	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
 	background-color: rgba(0,0,0,0.5);
 	border-radius: 15px;
+	margin: 0px 40px 0px 40px;
+	/*margin: 0px auto;*/
 }
 
 #checklist {
-	width: 600px;
+	width: 400px;
 	height: 400px;
 	position: absolute;
 	/*
 	background-color: rgba(0,0,0,0.5);*/
-	margin: 50px 50px 50px 50px;
+	margin: 0px;
 	font-size: 20px;
 }
 
 #checkheader {
-	width: 500px;
+	width: 350px;
 	height: 40px;
 	/*
 	background-color:#000000;*/
-	margin: 20px 20px 20px 40px;
+	margin: 20px 20px 20px 20px;
 	border-style: none none solid none;
 	border-color: #FFFFFF;
 	border-width: 1px;
@@ -351,11 +349,11 @@ h2 {
 }
 
 #detail {
-	width: 500px;
-	height: 100px;
+	width: 350px;
+	height: 120px;
 	/*
 	background-color:#000000;*/
-	margin: 20px 20px 20px 40px;
+	margin: 20px 20px 20px 20px;
 	border-style: none none solid none;
 	border-width: 1px;
 	border-color: #FFFFFF;
@@ -363,8 +361,8 @@ h2 {
 
 #listbox {
 	float: left;
-	width: 300px;
-	height 100px;
+	width: 200px;
+	height 120px;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -373,15 +371,15 @@ h2 {
 #pricebox	{
 	float:left;
 	text-align:right;
-	width: 200px;
-	height 100px;
+	width: 100px;
+	height 120px;
 	font-size:12px;
 	list-style-type: none;
 	color: #FFFFFF;
 }
 
 #total {
-	width: 500px;
+	width: 350px;
 	height:50px;
 	margin: 20px 20px 20px 40px;
 	/*
@@ -390,7 +388,7 @@ h2 {
 
 #ttext {
 	float:left;
-	width: 300px;
+	width: 180px;
 	height 50px;
 	font-size: 12px;
 	color: #FFFFFF;
@@ -401,7 +399,7 @@ h2 {
 #tprice {
 	float:left;
 	text-align:right;
-	width: 200px;
+	width: 100px;
 	height 50px;
 	font-size:12px;
 	color: #FFFFFF;
@@ -412,20 +410,16 @@ h2 {
 }
 
 #BAP {
-	width: 500px;
-	height: 100px;
-	/*
-	background-color: #9C9C9C;*/
-	margin: 0px 20px 20px 40px;
+	width: 350px;
+	height: 200px;
+	margin: 0px 50px 0px 50px;
 }
 
 #bbbox {
 	width: 150px;
 	height: 50px;
-	/*
-	background-color:#000000;*/
-	margin: 25px 66.6px 25px 66.6px;
-	position: absolute;
+	position: relative;
+	margin: 0px 100px 20px 100px;
 }
 
 #bbutton {
@@ -441,11 +435,9 @@ h2 {
 #pbbox {
 	width: 150px;
 	height: 50px;
-	/*
-	background-color:#000000;*/
-	margin: 25px 66.6px 25px 283.2px;
-	position: absolute;
-
+	background-color:red;
+	position: relative;
+	margin: 20px 100px 0px 100px;
 }
 
 #pbutton {
@@ -462,8 +454,8 @@ h2 {
 
 /* here is the botton part of the home page is exactly the same*/
 
-#more {
-	width:700px;
+ #more {
+	width:480px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
@@ -478,7 +470,7 @@ h4 {
 
 #moretext {
 	display: table-cell;
-	width: 700px;
+	width: 480px;
 	height: 120px;
 	position: relative;
 	vertical-align:middle;
@@ -494,6 +486,11 @@ nav ul li {
 	list-style: none;
 	margin-right:0.5em;
 }
+
+h4{
+	font-size: 10px;
+}
+
 
 #moretext a:link {
    		  color: #FFFFFF;
