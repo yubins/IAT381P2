@@ -19,7 +19,7 @@ body { /* make everything at the middle*/
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
 	width: 700px;
-	height: 100px;
+	height: 50px;
 	margin: 0px auto;
 }
 
@@ -173,11 +173,13 @@ A:active {
 #mainmenu2{
 	width: 300px;
 	height: 80px;
-	margin: 0px auto;
+
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
 }
 
 #menu480{
@@ -266,9 +268,8 @@ A:active {
 
 
 #welcome {
-	width: 700px;
-	height: 300px;
-	margin: 0px auto;
+	width: 400px;
+	height: 171.43px;
 	position: relative;
 	vertical-align: middle;
 	background-image: url("welcome.jpg");
@@ -279,14 +280,16 @@ A:active {
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
 	border-bottom-left-radius:1em;
+	/*margin: 0px auto;*/
+	margin: 0px 40px 0px 40px;
 
 }
 
 
 #welcometext{
 	display: table-cell;
-	width: 700px;
-	height: 300px;
+	width: 400px;
+	height: 171.43px;
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
@@ -294,14 +297,17 @@ A:active {
 	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
 }
 
+h2 {
+ font-size:15px;
+}
 
 h3 {
 	color: #F75A93;
 	font-size:25px;
 }
 #deals {
-	width: 700px;
-	height: 300px;
+	width: 480px;
+	height: 480px;
 	margin: 0px auto;
 	border-top-style:solid;	
 	border-top-color: #F75A93;
@@ -312,13 +318,14 @@ h3 {
 }
 
 #dealstext {
-	width: 700px;
+	width: 400px;
 	height: 20px;
+	margin: 0px 40px 0px 40px;
 }
 
 #dealscandy {
-	width: 700px;
-	height:200px;
+	width: 480px;
+	height:400px;
 	margin: 0px auto;
 }
 
@@ -327,8 +334,6 @@ h3 {
 	float:left;
 	width: 150px;
 	height: 150px;
-	/*
-	background-color: #000000;*/
 	margin: 10.5px;
 	border: 2px solid;
 	border-color: #F75A93; 
@@ -337,6 +342,7 @@ h3 {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin: 23px 43px 23px 43px;
 }
 
 
@@ -396,6 +402,7 @@ h3 {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin: 23px 43px 23px 43px;
 }
 
 #l2 {
@@ -437,6 +444,7 @@ h3 {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin: 23px 43px 23px 43px;
 }
 
 #l3 {
@@ -478,6 +486,7 @@ h3 {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    margin: 23px 43px 23px 43px;
 }
 
 #l4 {
@@ -539,7 +548,7 @@ h3 {
 */
 
 #more {
-	width:700px;
+	width:480px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
@@ -554,7 +563,7 @@ h4 {
 
 #moretext {
 	display: table-cell;
-	width: 700px;
+	width: 480px;
 	height: 120px;
 	position: relative;
 	vertical-align:middle;
@@ -570,6 +579,11 @@ nav ul li {
 	list-style: none;
 	margin-right:0.5em;
 }
+
+h4{
+	font-size: 10px;
+}
+
 
 #moretext a:link {
    		  color: #FFFFFF;
