@@ -348,6 +348,7 @@ A:active {
 
 
 #mainmenu2{
+	display: none;
 	width: 300px;
 	height: 80px;
 	margin: 0px auto;
