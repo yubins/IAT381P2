@@ -451,10 +451,11 @@ A:active {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    /*
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:1em;
+	border-bottom-left-radius:1em;*/
 
 }
 
@@ -468,7 +469,9 @@ A:active {
 	text-align: center;
 	text-align:-webkit-center;
 	opacity: .7;
+	/*
 	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
+	*/
 }
 
 
