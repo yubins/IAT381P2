@@ -26,6 +26,16 @@ Body{
 	position:relative;
 	}
 	
+#mimage {
+    height: 50px;
+}
+
+img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+	
 #logoimg {
 	float:left;
 	width: 600px;

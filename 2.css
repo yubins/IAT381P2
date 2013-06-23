@@ -1,0 +1,11 @@
+img {
+    vertical-align: middle;
+    height: 100%;
+}
+#scale-up {
+    height: 100px;
+    width: 100%;
+}
+#scale-down {
+    height: 60px;
+}

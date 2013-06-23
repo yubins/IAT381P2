@@ -292,6 +292,7 @@ h5{
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	text-indent:0em;
 	padding-top:0.5px;
 
@@ -518,10 +519,8 @@ h4 {
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	/*
-	background-color:#FAC8D9;
-	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {
