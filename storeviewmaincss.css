@@ -108,17 +108,23 @@ display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:10px;/*spreads out the items in main menu for better spacing*/
-	padding-bottom:0;
-	padding-top:0.5em;
+	padding-bottom:1em;/*fixes the height of the perm hover*/
+	padding-top:1em;/*fixes the height of the perm hover*/
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
 	
 }
 
+#current{
+	
+	background: #000;
+	border-radius:5px;
+	}
+
 #mpop{
 	
-	background: #FF91AF;
+	background: #000;
 	border-radius:5px;
 	}
 
@@ -195,8 +201,16 @@ display: inline;
 	margin-left:0px;
 	padding-bottom:0;
 	border-style:none;
-	
+	padding-top:1.25em;/*fixes the height of the perm hover*/
+		
 }
+
+#rowperm{
+	
+	background: #000;
+	border-radius:5px;
+	
+	}
 
 div#submenu{
 	
@@ -242,8 +256,8 @@ display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:15px;
-	padding-bottom:0;
-	padding-top:0.5em;
+	padding-bottom:1em;
+	padding-top:1em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
