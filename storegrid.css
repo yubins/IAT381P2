@@ -126,7 +126,7 @@ h2 {
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	background:-moz-linear-gradient(right,#F75A93,#F75A73);
 	text-indent:0em;
 	padding-top:0.5px;
@@ -291,11 +291,21 @@ A:active {
 	margin: 0px auto;*/
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+
 	text-indent:0em;
 
 	padding-right:1em;
 	padding-bottom:0.5px;
 	border-radius:15px;
+	}
+	
+	.viewicons {
+	float:left;
+	height:20px;
+	width:20px;
+	margin-right:5px;
+	
 	}
 /*div#viewchange{
 	
@@ -360,6 +370,8 @@ div#submenu{
 	border-style:none;
 	font-size:14px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+
 	text-indent:0em;
 	padding-top:0.5px;
 	padding-left:1em;
@@ -692,6 +704,8 @@ border-style:none;
 	margin-left:33.25em;
 	margin-top:2em;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+
 	text-indent:0em;
 	padding-top:0.04px;
 	padding-left:0em;
@@ -731,6 +745,8 @@ div#menu {
 	height: 0px;
 	margin: 0px auto;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+
 }
 
 h4 {
@@ -745,6 +761,8 @@ h4 {
 	margin:0px auto;
 	text-align: center;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+
 
 }
 #fnote li{

@@ -71,6 +71,8 @@ Body{
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);/*makes background color work in safari*/
+
 	text-indent:0em;
 		padding-top:0.5px;
 
@@ -113,6 +115,10 @@ display: inline;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
+	-moz-transition: background-color, color 0.5s;
+	-webkit-transition:background-color, color 0.5s;
+	-o-transition: background-color, color, 0.5s;
+	transition: background-color, color, 0.5s;
 	
 }
 
@@ -127,7 +133,19 @@ display: inline;
 	background: #000;
 	border-radius:5px;
 	}
-
+#navtext{
+	
+	height: 40px;
+	width: 700px;
+	padding-bottom:5px;
+	margin: 0px auto;
+	color: #F75A93;
+	font-size:13px;
+	border-top:solid;
+	border-bottom:solid;
+	border-width:1px;
+	
+	}
 #viewchangeholder {
 	height: 35px;
 	width: 700px;
@@ -140,7 +158,7 @@ display: inline;
 	float: left;
 	height: 40px;
 	width: 100px;
-	margin: 0px auto;*/
+	margin: 0px auto;
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	text-indent:0em;
@@ -285,22 +303,7 @@ float:left;
 
 
 }
-<!--div#footertext {
 
-font-size:60%;
-border-style:none;
-	margin-bottom:0em;
-	margin-right:48em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	float:right;
-}-->
 
 
 
@@ -357,7 +360,7 @@ display: inline;
 
 #rowview {
 	width: 700px;
-	height: 900px;
+	height: 800px;
 	margin: 0px auto;
 }
 
