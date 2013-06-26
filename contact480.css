@@ -19,7 +19,7 @@ body { /* make everything at the middle*/
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 700px;
+	width: 480px;
 	height: 50px;
 	margin: 0px auto;
 }
@@ -312,7 +312,7 @@ h3 {
 /*contact page from here*/
 #cbox {
 	width: 466.67px;
-	height: 1050px;
+	height: 950px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
@@ -388,6 +388,10 @@ h3 {
 	font-size: 12px;
 	list-style: none;
 	margin: 0px 0px 0px 0px;
+}
+
+#info ul{
+	list-style-type: none;
 }
 
 h8{ 
