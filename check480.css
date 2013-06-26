@@ -1,5 +1,6 @@
 /* as title and headers are similar, just get the codes from home page and change a little bit then change the values*/
 body {
+	width: 480;
 	background-image:url('bg.jpg');
 	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;	
 	}
@@ -13,9 +14,6 @@ h1   {
 	position: absolute; bottom: 0; right:0;
 }
 
-body { /* make everything at the middle*/
-	/*text-align: center;*/
-}
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */

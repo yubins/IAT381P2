@@ -18,7 +18,7 @@ body { /* make everything at the middle*/
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 700px;
+	width: 480px;
 	height: 50px;
 	margin: 0px auto;
 }
