@@ -229,6 +229,28 @@ A:active {
 	font-size: 2px;
 }
 
+#mainmenu3{
+	display: run-in;
+	width: 300px;
+	height: 80px;
+
+	border-style:none;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
+}
+
+#menutwo480{
+	width:240px;
+	height:60px;
+	margin: 10px 30px 10px 30px;
+	position:absolute;
+	
+}
+
+
 #mainmenu2{
 	margin-top:2em;
 	}
@@ -271,6 +293,45 @@ A:active {
 
 /*above is menu and headers*/
 
+#mainmenu3{
+	margin-top:2em;
+	}
+A:link {
+	text-decoration: none;
+	color:#FFF ;
+	opacity: .9;
+}
+A:visited { 
+	text-decoration: none;
+	color: #FFF;
+}
+A:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#mainmenu3 li:hover {
+	background: #FF91AF;
+	padding-top:2px;
+	padding-bottom:2px;	
+	border-radius:25px;
+}
+
+
+#mainmenu3 li{
+	display: inline;
+	list-style-type: none;
+	margin-top: 2em;
+	margin-right:10px;
+	padding-top:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	border-style:none;
+	-moz-transition: background-color, color 2s;
+	-webkit-transition:background-color, color 2s;
+	-o-transition: background-color, color, 2s;
+	transition: background-color, color, 2s;	
+}
 
 #viewchangeholder {
 	height: 40px;
@@ -354,7 +415,7 @@ display: inline;
 }
 
 div#submenu{
-	
+	display:none;
 	height: 60px;
 	width:450px;
 	margin: 0px auto;
