@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<header>
+	<head>
 		<title>contact page</title> <!--copy most of the code form search page first-->
 		<link rel="stylesheet" type="text/css" href="contact.css" />
 		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="contact480.css"/>
 		<meta name="viewport" content="width=480">
-	</header>
+			<meta charset="utf-8">
+	</head>
 	
 	<body>
 	<br/>
 	<div id = "titleHolder">
-			<div id="mainlogo"><div id="mimage"<a href="Ben_p2.html"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt=""></a></div></div>
+			<div id="mainlogo"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt=""></a></div>
 
 			<div id="candyimage">
 				<label for="search"></label>
-						<input id="search" search="search" type="text" placeholder="type of candy" required autofocus/>
+						<input id="search" type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
 			</div>
 		</div>
@@ -40,7 +41,7 @@
   					</ul> 
   					</div>
   					<div class="menuright">
-  					</ul>
+  					<ul>
   					<li class="menu2"><a href="contact.html">Contact</a></li>
   					</ul>
   					</div>
@@ -89,14 +90,19 @@
 					</div>
 					<div id="infobox">
 						<div id="info">
-						<br/>
-						<li><h8>LOCATION</h8></li>
+						<ul>
+						<li>LOCATION</li>
 						<li><br/><br/>IN GASTOWN<br/>105 WATER STREET VANCOUVER, BC V6A 1A7</li>
+						</ul>
 						<br/>
-						<br/>
+		
+						<ul>
 						<li>PHONE NUMBER<br/>604.604.6044</li>
-						<br/>
+						</ul>
+			
+						<ul>
 						<li>HOURS<br/>MON-FRI 10-5<br/>SAT 11-5<br/>SUN 12-4</li>
+						</ul>
 						</div>
 					</div>
 				</div>
@@ -107,31 +113,31 @@
 					</div>
 					<div id="textlist">
 					<div class="n">
-						<div id="nt"><h9>Name</h9></div>
+						<div id="nt"><div class="h9">Name</div></div>
 						<div id="ni">
 						<input id="name" name="name" style="width: 300px;" type="text" placeholder="First and last name" required autofocus/>
 						</div>
 					</div>
 						
 					<div class="e">
-						<div class="et"><h9>EMAIL</h9></div>
+						<div class="et"><div class="h9">EMAIL</div></div>
 						<div class="ei">
 						<input id="email" style="width: 300px;" name="email" type="text" placeholder="your email address is required" required autofocus/>
 						</div>
 					</div>
 						
 					<div class="s">
-						<div class="et"><h9>SUBJECT<h9></div>
+						<div class="et"><div class="h9">SUBJECT</div></div>
 						<div class="ei">
 						<input id="subject" style="width: 300px;" name="subject" type="text"/>
 						</div>
 					</div>
 					
 					<div class="m">
-						<div class="et"><h9>MESSAGE<h9></div>
+						<div class="et"><div class="h9">MESSAGE</div></div>
 						<div id="mi">
 						<!--<input id="subject" style="width: 300px; height:200px" name="subject" type="text"/>-->
-						<textarea id="subject"></textarea>
+						<textarea id="message"></textarea>
 						</div>
 					</div>
 					</div>
