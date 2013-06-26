@@ -309,7 +309,7 @@ h3 {
 }
 #deals {
 	width: 700px;
-	height: 300px;
+	height: 350px;
 	margin: 0px auto;
 	border-top-style:solid;	
 	border-top-color: #F75A93;
@@ -514,37 +514,12 @@ h3 {
    		opacity: 1;
    		  }
    		  
-/*
-#holder {
+#discribe {
+	display: inline;
 	width: 700px;
-	height: 250px;
-	margin: 0px auto;
+	height: 50px;
+	color: #F75A93;
 }
-
-#about {
-	float:left;
-	width: 200px;
-	height: 225px;
-	background-color: #000000;
-	margin:16px;
-}
-
-#contact {
-	float: left;
-	width: 200px;
-	height: 225px;
-	background-color: #000000;
-	margin:16px;
-}
-
-#order {
-	float:left;
-	width: 200px;
-	height: 225px;
-	background-color: #000000;
-	margin:16px;
-}
-*/
 
 #more {
 	width:700px;

@@ -548,7 +548,13 @@ h3 {
 	background-color: #000000;
 	margin:16px;
 }
+
+
 */
+
+#discribe {
+	display: none;
+}
 
 #more {
 	width:480px;
