@@ -177,7 +177,7 @@ A:active {
 
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	border-radius:15px;
 	/*	margin: 0px auto;*/
 	margin: 0px 90px 0px 90px;
