@@ -624,8 +624,7 @@ h4 {
 
 .productimage {
 	float: left;
-	width: 120px;
-	height: 120px;
+	
 	/*background-color: #000000;*/
 	border-radius: 10px;
 	position: relative;
