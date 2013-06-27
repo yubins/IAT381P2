@@ -361,6 +361,51 @@ h2 {
 	border-radius: 10px;
 	position: relative;
 	margin: 0px 30px 0px 0px;
+	background-image: url("caramel1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.cimage2 {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	border-radius: 10px;
+	position: relative;
+	margin: 0px 30px 0px 0px;
+	background-image: url("caramel2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.cimage3 {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	border-radius: 10px;
+	position: relative;
+	margin: 0px 30px 0px 0px;
+	background-image: url("caramel3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.cimage4 {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background-color: #000000;
+	border-radius: 10px;
+	position: relative;
+	margin: 0px 30px 0px 0px;
+	background-image: url("caramel4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 
