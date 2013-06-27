@@ -19,8 +19,8 @@ body { /* make everything at the middle*/
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 700px;
-	height: 100px;
+	width: 480px;
+	height: 50px;
 	margin: 0px auto;
 }
 
@@ -28,33 +28,31 @@ body { /* make everything at the middle*/
 	float: left;
 	/*
 	background-color:#FAC8D9;
-	*/
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);*/
 	width:100px;
 	height:100px;
 	position: relative; /* without this it will be at the bottom of the page */
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;*/
-	/*margin:50px, 0px, 50px, 100px;*/
+	/*margin:50px, 0px, 50px, 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:0em;
 	border-bottom-right-radius:0em;
 	border-bottom-left-radius:1em;
-	
+	*/
 }
-
-
 
 #mainlogo{
 	float:left;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	background-color: #000000;
 	position:relative;
 	}
 	
 #mimage {
-    height: 100px;
+    height: 50px;
 }
 
 img {
@@ -62,19 +60,19 @@ img {
     height: 100%;
 }
 
-	
 #candyimage {
 	float: left;
 	background-color: #000000;
-	width:600px;
-	height:100px;
+	width:430px;
+	height:50px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
 	margin:50px, 100px, 50px, 0px;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;*/
+	border-bottom-left-radius:0em;
+	*/
 	background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,7 +82,6 @@ img {
 }
 
    		  
-   		  
 #search {
 	display: table-cell;
 	width:150px;
@@ -92,7 +89,7 @@ img {
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-	margin: 40px 0px 40px 200px;
+	margin: 15px 0px 15px 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -102,11 +99,11 @@ img {
 }
 
 #sbutton {
-	width:100px;
+	width:80px;
 	height:30px;
 	position:relative;
 	background-color: #F75A93;
-	font-size: 15px;
+	font-size: 12px;
 	color: #FFFFFF;
 	border-radius: 10px;
 }
@@ -116,13 +113,10 @@ h2 {
 	font-size: 30px;
 }
 
-
-
-
 #mainmenu{
-	
+	display:none;
 	height: 50px;
-	width:665px;
+	width:300px;
 	margin: 0px auto;
 	border-style:none;
 	
@@ -160,10 +154,10 @@ A:active {
 	border-radius:25px;
 }
 #mainmenu li{
-	display: inline;
+	display: hide;
 	list-style-type: none;
-	margin-top: 2em;
-	margin-right:10px;/*spreads out the items in main menu for better spacing*/
+	margin-top: 1em;
+	margin-right: 1px;/*spreads out the items in main menu for better spacing*/
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
@@ -172,20 +166,22 @@ A:active {
 	-moz-transition: background-color, color 2s;
 	-webkit-transition:background-color, color 2s;
 	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	transition: background-color, color, 2s;
+	font-size: 10px;
 	
 }
 
-
 #mainmenu2{
-	display: none;
+	display: run-in;
 	width: 300px;
 	height: 80px;
-	margin: 0px auto;
+
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	border-radius:15px;	
+	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
 }
 
 #menu480{
@@ -271,28 +267,9 @@ A:active {
 }
 
 /*result text on the image*/
-#result {
-	width: 700px;
-	height: 200px;
-	margin: 0px auto;
-	position: relative;
-	vertical-align: middle;
-	/*
-	background-image: url("result.jpg");*/X
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-	border-top-left-radius:1em;
-	border-top-right-radius:1em;
-	border-bottom-right-radius:1em;
-	border-bottom-left-radius:1em;
-
-}
-
-
 #rtext{
 	display: table-cell;
-	width: 700px;
+	width: 480px;
 	height: 200px;
 	position: relative;
 	vertical-align:middle;
@@ -309,7 +286,7 @@ h2 {
 }
 
 #rbox {
-	width: 700px;
+	width: 480px;
 	height: 980px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
@@ -319,9 +296,11 @@ h2 {
 }
 
 .caramel1 {
-	width: 600px;
+	width: 480px;
 	height: 170px;
-	/*background-color: #FFFFFF;*/
+	/*
+	background-color: #FFFFFF;
+	location testing*/
 	margin: 0px auto;
 	border: #F75A93;
 	border-style: none none solid none;
@@ -330,10 +309,11 @@ h2 {
 }
 
 .box1 {
-	width: 550px;
+	width: 400px;
 	height: 120px;
 	/*
-	background-color: #FF0000;*/
+	background-color: #FF0000;
+	position testing*/
 	margin: 25px 20px 25px 20px;
 	}
 
@@ -345,13 +325,13 @@ h2 {
 	background-color: #000000;
 	border-radius: 10px;
 	position: relative;
-	margin: 0px 30px 0px 0px;
+	margin: 0px 0px 0px 0px;
 }
 
 
 .caratext	{
 	float: left;
-	width: 300px;
+	width: 180px;
 	height: 120px;
 	/*
 	margin: 25px 20px 25px 20px;
@@ -423,18 +403,17 @@ h2 {
 /*here is the check out button*/
 
 #checkbox {
-	width:700px;
+	width:480px;
 	height: 30px;
 	margin: 0px auto;
-	/*
-	background-color: #000000;*/ 
+	/*background-color: #000000;*/
 	/*just used to test where is the box*/
 }
 
 #checkbutton {
 	width:200px;
 	height:30px;
-	margin: 0px 250px 0px 250px;
+	margin: 0px 140px 0px 140px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
@@ -447,8 +426,9 @@ h2 {
 
 /* here is the botton part of the home page is exactly the same*/
 
+
 #more {
-	width:700px;
+	width:480px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
@@ -463,7 +443,7 @@ h4 {
 
 #moretext {
 	display: table-cell;
-	width: 700px;
+	width: 480px;
 	height: 120px;
 	position: relative;
 	vertical-align:middle;
@@ -479,6 +459,11 @@ nav ul li {
 	list-style: none;
 	margin-right:0.5em;
 }
+
+h4{
+	font-size: 10px;
+}
+
 
 #moretext a:link {
    		  color: #FFFFFF;
@@ -500,4 +485,3 @@ nav ul li {
    		  opacity:.7;
    		  }
    		  
-
