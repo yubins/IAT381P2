@@ -615,8 +615,8 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	background:-moz-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+	background:-moz-linear-gradient(left,#F75A93,#F75A73);
 }
 
 nav ul li {
