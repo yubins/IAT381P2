@@ -1,144 +1,233 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Candy Box Store</title>
-	<link rel="icon" 
-      type="image/png" 
-      href="images/CANDYBOXLOGOPINK.png" width="1" height="1">
-      <link rel="stylesheet" type="text/css" href="storehardrow.css"/>
+	<head><title>Store | Candy Box</title>
+	
+      <link rel="stylesheet" type="text/css" href="storeviewmaincss.css"/>
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="storerowmainstyle.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
+
+    <!--<meta name="viewport" content="width=device-width">-->
+    <meta name="viewport" content="width=480">
+    <meta charset="utf-8">
 	</head>
 	<body>
-		<div id="header">
-			<div id="mainlogo"> <a href="test.html"><img src="images/CANDYBOXLOGOPINK.png" width="100" height="100"></a></div>
-			<div id="logoimg"><!--<img src="images/headerimage3.png"  height="100"> -->	<label for="search"></label>
-						<input id="search" search="search" type="text" placeholder="type of candy" required autofocus/>
-						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>	</div>
-			
+		<div id = "titleHolder">
+			<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo"></a></div></div>
+
+			<div id="candyimage">
+				<label for="search"></label>
+						<input id="search"  type="text" placeholder="Eg: Caramel" required autofocus/>
+						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
+			</div>
 		</div>
 	
 		<div id="mainmenu">
-			<nav>
-				<ul>
-  					<li> <a href="test.html">About</a> </li>
-  					<li> <a href="test.html">Contact</a> </li>
-  					<li> <a href="test.html">Your Order</a> </li>
- 		 			<li> <a href="test.html">Search</a> </li>
-  					<li> <a href="test.html">Facebook</a> </li>
-  					<li> <a href="test.html">Twitter</a> </li>
-
-				</ul>
-			</nav>
+			<div id="menuhold">
+				<nav>
+					<ul>
+  						<li> <a href="about.html">About</a> </li>
+  						<li> <a href="contact.html">Contact</a> </li>
+  						<li class="current"> <a href="store.html">Buy Now</a> </li>
+ 		 				<li> <a href="checkpage.html">Check Out</a> </li>
+  						<li> <a href="https://www.facebook.com">Facebook</a> </li>
+  						<li> <a href="https://www.twitter.com">Twitter</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>	
+	
+				<div id="mainmenu2">
+			<div id="menu480">
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="about.html">About</a></li>
+  					</ul> 
+  					</div>
+  					<div class="menuright">
+  					<ul>
+  					<li class="menu2"><a href="contact.html">Contact</a></li>
+  					</ul>
+  					</div>
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="store.html">Buy now</a></li> 
+  					</ul>
+  					</div>
+ 		 			<div class="menuright">
+ 		 			<ul>
+ 		 			<li class="menu2"><a href="checkpage.html">Check Out</a></li>
+ 		 			</ul>
+ 		 			</div>
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="www.facbook.com">Facebook</a></li>
+  					</ul>
+  					</div>
+  					<div class="menuright">
+  					<ul>
+  					<li class="menu2"><a href="twitter.com">Twitter</a></li>
+  					</ul>
+  					</div>
+			</div>
 		</div>
-		<br>
+		
+		<br/>
 		<div id="viewchangeholder">
 		<div id="viewchange">
 			<nav>
 				<ul>
   					
-  					<li><a href="test.html"><img src="images/gridbutton.png" width="20" height="20"></a></li>
-  					<li><a href="test.html"><img src="images/rowbutton.png" width="20" height="20"></a></li>
+  					<li class="viewicons"><a href="storehardgrid.html"><img src="images/gridbutton.png" alt="gridpage"></a></li>
+  					<li class="viewicons"><a href="storehardrow.html"><img src="images/rowbutton.png" alt="rowpage" ></a></li>
 				</ul>
 			</nav>
 		</div>
 		</div>
 		
 		<div id="submenu">
-			<nav>
-				<ul>
-  					<li id="mpop"> <a href="test.html">Most Popular</a> </li>
-  					<li> <a href="test.html">Deals of the Week</a> </li>
-  					<li> <a href="test.html">Hard Candy</a> </li>
- 		 			<li> <a href="test.html">Soft Candy</a> </li>
-  					<li> <a href="test.html">Chocolate</a> </li>
-				</ul>
-			</nav>
+			<div id="subhold">
+				<nav>
+					<ul>
+  						<li> <a href="storerowmain.html">Most Popular</a> </li>
+  						<li> <a href="storedealsrow.html">Deals of the Week</a> </li>
+  						<li  class="current"> <a href="storehardrow.html">Hard Candy</a> </li>
+ 		 				<li> <a href="storesoftrow.html">Soft Candy</a> </li>
+  						<li> <a href="storechocrow.html">Chocolate</a> </li>
+					</ul>
+				</nav>
+			</div>
+		</div>	
+		
+
+		
+		<div id="mainmenu3">
+			<div id="menutwo480">
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="about.html">Popular</a></li>
+  					</ul> 
+  					</div>
+  					<div class="menuright">
+  					<ul>
+  					<li class="menu2"><a href="storedealsrow.html">Deals</a></li>
+  					</ul>
+  					</div>
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="storehardrow.html">Hard Candy</a></li> 
+  					</ul>
+  					</div>
+ 		 			<div class="menuright">
+ 		 			<ul>
+ 		 			<li class="menu2"><a href="storesoftrow.html">Soft Candy</a></li>
+ 		 			</ul>
+ 		 			</div>
+  					<div class="menuleft">
+  					<ul>
+  					<li class="menu2"><a href="storechocrow.html">Chocolate</a></li>
+  					</ul>
+  					</div>
+  					
+			</div>
+		</div>
+		
+		<br/>
+		<div id="navtext">
+		<p>Take a look at our goods below, click on the images for more info or add the quantity you want and add to the cart!</p>
 		</div>
 		<div id="rowview"> <!--container of all the result include image and the options-->
 			
-			<div id="product">
-				<div id="box1">
-					<div id="productimage">
-					<img src="candy2.jpg" width="120" height="120">
+			<div class="product">
+				<div class="box1">
+					<div class="productimage">
+										<a href="productdetail.html"><img src="candy2.jpg" alt="candypic2" width="120" height="120"></a>
+
 					</div>
-					<div id="prodtext">
-						<p><h7>Caramel Squares</h7><br/><h7>0.25/LB</h7>
+					<div class="prodtext">
+						<p class="h7">Caramel Squares<br/>1.25/LB
 						</p>
-						<p><h6>Soft and chewy exterior and interior, makes the perfect chewable snack!</h7>
+						<p class="h6">Soft and chewy exterior and interior, makes the perfect chewable snack!
 						</p>
-						<label for="number">Quantity</label>
-						<input id="number" number="search" type="text" placeholder="number of lbs" required autofocus/>
+						<label for="number1">Quantity</label>
+						<input id="number1"  type="text" placeholder="number of lbs" required autofocus/>
 						lbs
 						<!--<button type="button" id="qbutton" onclick="location.href='#spage'">put in cart</button>-->
 					</div>
-					<div id="cart">
-							<button type="button" id="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
+					<div class="cart">
+							<button type="button" class="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
 					</div>
 				</div>
 			</div>
 			
 			
-			<div id="product">
-				<div id="box1">
-					<div id="productimage">
-					<img src="candy2.jpg" width="120" height="120">
+		<div class="product">
+				<div class="box1">
+					<div class="productimage">
+					<a href="productdetail.html"><img src="candy1.jpg" alt="candypic1" width="120" height="120"></a>
 					</div>
-					<div id="prodtext">
-						<p><h7>Caramel Squares</h7><br/><h7>0.25/LB</h7>
+					<div class="prodtext">
+						<p class="h7">Crazy Lolli's<br/>0.30/LB
 						</p>
-						<p><h6>Soft and chewy exterior and interior, makes the perfect chewable snack!</h7>
+						<p class="h6">Fruity explosion on the outside, with a delicious multilayer flavour!
 						</p>
-						<label for="number">Quantity</label>
-						<input id="number" number="search" type="text" placeholder="number of lbs" required autofocus/>
+						<label for="number2">Quantity</label>
+						<input id="number2"  type="text" placeholder="number of lbs" required autofocus/>
 						lbs
 						<!--<button type="button" id="qbutton" onclick="location.href='#spage'">put in cart</button>-->
 					</div>
-					<div id="cart">
-							<button type="button" id="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
+					<div class="cart">
+							<button type="button" class="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
 					</div>
 				</div>
 			</div>
 			
-			<div id="product">
-				<div id="box1">
-					<div id="productimage">
-					<img src="candy2.jpg" width="120" height="120">
+		<div class="product">
+				<div class="box1">
+					<div class="productimage">
+					<a href="productdetail.html"><img src="candy3.jpg" alt="candypic3" width="120" height="120"></a>
 					</div>
-					<div id="prodtext">
-						<p><h7>Caramel Squares</h7><br/><h7>0.25/LB</h7>
+					<div class="prodtext">
+						<p class="h7">Tongue Tarts<br/>0.10/LB
 						</p>
-						<p><h6>Soft and chewy exterior and interior, makes the perfect chewable snack!</h7>
+						<p class="h6">The perfect sweet to suck on while studying or watching a movie!
 						</p>
-						<label for="number">Quantity</label>
-						<input id="number" number="search" type="text" placeholder="number of lbs" required autofocus/>
+						<label for="number3">Quantity</label>
+						<input id="number3"  type="text" placeholder="number of lbs" required autofocus/>
 						lbs
 						<!--<button type="button" id="qbutton" onclick="location.href='#spage'">put in cart</button>-->
 					</div>
-					<div id="cart">
-							<button type="button" id="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
+					<div class="cart">
+							<button type="button" class="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
 					</div>
 				</div>
 			</div>
 			
-			<div id="product">
-				<div id="box1">
-					<div id="productimage">
-					<img src="candy2.jpg" width="120" height="120">
+	<div class="product">
+				<div class="box1">
+					<div class="productimage">
+					<a href="productdetail.html"><img src="candy4.jpg" alt="candypic4" width="120" height="120"></a>
 					</div>
-					<div id="prodtext">
-						<p><h7>Caramel Squares</h7><br/><h7>0.25/LB</h7>
+					<div class="prodtext">
+						<p class="h7">Fireballs<br/>0.15/LB
 						</p>
-						<p><h6>Soft and chewy exterior and interior, makes the perfect chewable snack!</h7>
+						<p class="h6">Red hot on the outside and red hot on the inside, for the thrill seekers!
 						</p>
-						<label for="number">Quantity</label>
-						<input id="number" number="search" type="text" placeholder="number of lbs" required autofocus/>
+						<label for="number4">Quantity</label>
+						<input id="number4"  type="text" placeholder="number of lbs" required autofocus/>
 						lbs
 						<!--<button type="button" id="qbutton" onclick="location.href='#spage'">put in cart</button>-->
 					</div>
-					<div id="cart">
-							<button type="button" id="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
+					<div class="cart">
+							<button type="button" class="cartbutton" onclick="location.href='#spage'">Put in Cart</button>
 					</div>
 				</div>
 			</div>
-<br>
+		</div>
+		
+			<br/>
+		<div id= "checkbox"><!--check out box for the button-->
+			<button type="button" id="checkbutton" onclick="location.href='checkpage.html'">Check out</button>
+			</div>
+			<br/>
 <div id="footerimage">
 			
 			
@@ -148,9 +237,9 @@
 			<h4>Go to CONTACT to learn how we can serve your event</h4>
 			<nav>
 				<ul>
-					<li><a href="#shipping">shipping</a></li>
-					<li><a href="#taxes">taxes</a></li>
-					<li><a href="#term">terms of use</a></li>
+					<li><a href="shipping.html">shipping</a></li>
+					<li><a href="shipping.html">taxes</a></li>
+					<li><a href="shipping.html">terms of use</a></li>
 				</ul>
 			</nav>
 			
