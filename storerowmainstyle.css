@@ -545,6 +545,25 @@ div#menu {
 	
 	margin:16px;
 }
+#checkbox {
+	width:480px;
+	height: 30px;
+	margin: 0px auto;
+	/*background-color: #000000;*/
+	/*just used to test where is the box*/
+}
+
+#checkbutton {
+	width:200px;
+	height:30px;
+	margin: 0px 140px 100px 140px;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	font-size: 15px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #EB0075;
+	}
 	
 #footer {
 	width:480px;
@@ -690,3 +709,4 @@ h4 {
 	color: #FFFFFF;
 	border-radius: 5px;
 	}
+	
