@@ -543,7 +543,8 @@ list-style-type:none;/*need to make the list go away*/
 #backbutton {
 	width:150px;
 	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -563,7 +564,8 @@ list-style-type:none;/*need to make the list go away*/
 #orderbutton {
 	width:150px;
 	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -591,7 +593,8 @@ h4 {
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 }
 
 nav ul li {
