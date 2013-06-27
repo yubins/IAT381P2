@@ -1,37 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Candy Box About</title>
+	<head><title>Candy Box Store</title>
 	
       <link rel="stylesheet" type="text/css" href="about.css"/>
-            		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="aboutstyle.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
-            		<!--<meta name="viewport" content="width=device-width">-->
-    <meta name="viewport" content="width=480">
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="aboutstyle.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
 
+    <!--<meta name="viewport" content="width=device-width">-->
+    <meta name="viewport" content="width=480">
+    <meta charset="utf-8">
 	</head>
 	<body>
-		
-		<div id="header">
-			<div id="mainlogo"> <a href="test.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo" width="100" height="100"></a></div>
-			<div id="logoimg"><!--<img src="images/headerimage3.png"  height="100"> -->	<label for="search"></label>
-						<input id="search"  type="text" placeholder="type of candy" required autofocus/>
-						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>	</div>
-			
-		</div>
-		<br/>
+		<div id = "titleHolder">
+			<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo"></a></div></div>
 
+			<div id="candyimage">
+				<label for="search"></label>
+						<input id="search"  type="text" placeholder="type of candy" required autofocus/>
+						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
+			</div>
+		</div>
 		
 		<div id="mainmenu">
 			<nav>
 				<ul>
-  					<ul>
-  					<li> <a href="about.html">About</a> </li>
+  					<li id="current"> <a href="about.html">About</a> </li>
   					<li> <a href="contact.html">Contact</a> </li>
-  					<li> <a href="store.html">Buy Now</a> </li>
+  					<li> <a href="store.html">BUY NOW</a> </li>
  		 			<li> <a href="checkpage.html">Check Out</a> </li>
   					<li> <a href="www.facbook.com">Facebook</a> </li>
   					<li> <a href="twitter.com">Twitter</a> </li>
-
-				</ul>
 
 				</ul>
 			</nav>
@@ -71,7 +68,7 @@
 		<br/>
 		<div id="footer">
 			<div id="fnote">
-			<h4>Go to CONTACT to learn how we can serve your event</h4>
+			<h4>Go to CONTACT to learn how e can serve your event</h4>
 			<nav>
 				<ul>
 					<li><a href="#shipping">shipping</a></li>
