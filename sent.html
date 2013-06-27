@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Home</title>
-		<link rel="stylesheet" type="text/css" href="p2.css" />
-		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="480p2.css"/>
-		<meta name="viewport" content="width=480">
-			<meta charset="utf-8">
-	</head>
+	<head><title>Thank you for sending us message</title>
 	
-	<body><!-- try to make box first -->
-		<br/>
+    <!--Linking style sheets for desktop and mobile-->
+    <link rel="stylesheet" type="text/css" href="sent.css"/>
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="sent480.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
+	
+	<!--adding tag to make sure website scales when on mobile device-->
+    <!--<meta name="viewport" content="width=device-width">-->
+    <meta name="viewport" content="width=480">
+    <meta charset="utf-8">
+	</head>
+	<body>
+		<!--header images and search-->
 		<div id = "titleHolder">
-			<!--<div id="candy"> 
-				<a href="Ben_p2.html"><h1>CANDY<br/>BOX</h1></a>-->
-			<div id="mainlogo"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt=""></a></div>
+			<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo"></a></div></div>
 
 			<div id="candyimage">
 				<label for="search"></label>
-						<input id="search" type="text" placeholder="type of candy" required autofocus/>
+						<input id="search"  type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
 			</div>
 		</div>
 		
-		<div id="mainmenu">
+		
+		
+			<!--main navigation-->
+			<div id="mainmenu">
 			<div id="menuhold">
 				<nav>
 					<ul>
-  						<li> <a href="about.html">About</a> </li>
+  						<li > <a href="about.html">About</a> </li>
   						<li> <a href="contact.html">Contact</a> </li>
-  						<li> <a href="store.html">Buy now</a> </li>
+  						<li > <a href="store.html">Buy now</a> </li>
  		 				<li> <a href="checkpage.html">Check Out</a> </li>
   						<li> <a href="http://www.facbook.com">Facebook</a> </li>
   						<li> <a href="http://twitter.com">Twitter</a> </li>
@@ -36,7 +40,7 @@
 				</nav>
 			</div>
 		</div>	
-		
+		<!--mobile main nav-->
 		<div id="mainmenu2">
 			<div id="menu480">
   					<div class="menuleft">
@@ -71,54 +75,28 @@
   					</div>
 			</div>
 		</div>
-		<br>
+		
+		<!--thank you message-->
+		<div id="messages">
+
+			<div id="thanks">
+			<h2>THANK YOU!</h2>
+
+			</div>
+		</div>
+		
+		<!--area where purchase info is shown-->
+		<div id="blackbox"> 
+				<div id="boxheader">
+				Thank you for sending us feedback
+				</div>
+
+			</div>
+		</div>
+
 		<br/>
 		
-		<div id="welcome">
-			<div id="welcometext">
-			<h2>
-			WELCOME TO THE CANDY BOX!<br/>TAKE A LOOK INSIDE!
-			</h2>
-			</div>
-		</div>
-		<br/>
-		<div id="deals">
-			<div id="dealstext">
-			<h3>DEALS OF THE WEEK</h3>
-			</div>
-			<br/>
-			<br/>
-			<div id="dealscandy"> 
-				<div id="candy1">
-					<div class="lable1">
-					<div id="l1"><a href="storedealsgrid.html">LOLIPOPS</a></div>
-					</div>
-					
-				</div>
-				<div id="candy2">
-					<div class="lable1">
-					<div id="l2"><a href="storedealsgrid.html">CHOCOLATE</a></div>
-					</div>
-				
-				</div>
-				<div id="candy3">
-					<div class="lable1">
-					<div id="l3"><a href="storedealsgrid.html">CANDY</a></div>
-					</div>
-				
-				</div>
-				<div id="candy4">
-					<div class="lable1">
-					<div id="l4"><a href="storedealsgrid.html">POPING CANDY</a></div>
-					</div>
-				</div>
-			</div>
-				<div id="discribe">
-				Please take a look at our SWEET deals of the week, remember these change weekly, so don't miss out!  These items are 50% off!  Click on the images to get more info.
-				</div>
-		</div>
-	
-		<br/>
+		<!--footer-->
 		<div id="more">
 			<div id="moretext">
 			<h4>Go to CONTACT to learn how we can serve your event</h4>
@@ -132,9 +110,6 @@
 			
 			</div>
 		</div>
-
 	</body>
-	
-	
-	
+
 </html>

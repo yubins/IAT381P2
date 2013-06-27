@@ -118,7 +118,6 @@ h2 {
 
 
 
-
 #mainmenu{
 	
 	height: 50px;
@@ -127,15 +126,33 @@ h2 {
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	text-indent:0em;
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+	/*text-indent:0em;
 	padding-top:0.5px;
-
 	padding-left:1em;
 	padding-right:1em;
 	padding-bottom:0.5px;
+	-webkit-padding-top:0.5px;
+	-webkit-padding-left:1em;
+	-webkit-padding-right:1em;
+	-webkit-padding-bottom:0.5px;*/
 	border-radius:15px;
 }
+
+#menuhold {
+	width: 600px;
+	height: 20px;
+	/*
+	background-color: black;*/
+	margin: 15px 32.5px 15px 32.5px;
+	position: absolute;
+}
+
+#menuhold ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;;
+}
+
 #mainmenu{
 	margin-top:2em;
 	}
@@ -153,46 +170,27 @@ A:active {
 	color: #FFF;
 }
 
-#menuhold {
-	width: 600px;
-	height: 20px;
-	/*
-	background-color: black;*/
-	margin: 15px 32.5px 15px 32.5px;
-	position: absolute;
-}
-
-#menuhold ul{
-	list-style-type: none;
-	margin: 0px 0px 0px 0px;;
-}
-
-
-
 #mainmenu li:hover {
 	background: #FF91AF;
 	
-	padding-top:2px;
-	padding-bottom:2px;	
-	border-radius:25px;
+	border-radius:15px;
 }
 #mainmenu li{
 	display: inline;
 	list-style-type: none;
 	margin-top: 2em;
-	margin-right:10px;/*spreads out the items in main menu for better spacing*/
-	padding-bottom:0;
-	padding-top:0.5em;
+	margin-right:5px;
+	padding-bottom:1em;
+	padding-top:1em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
-	-moz-transition: background-color, color 2s;
-	-webkit-transition:background-color, color 2s;
-	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
 	
 }
-
 
 #mainmenu2{
 	display: none;

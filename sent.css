@@ -1,7 +1,14 @@
-/* as title and headers are similar, just get the codes from home page and change a little bit then change the values*/
+/*This is the page after user click sent from contact page*/
+Body{
+	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
+	}
+
 body {
 	background-image:url('bg.jpg');
-	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
+	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;	
 	}
 
 
@@ -81,7 +88,6 @@ img {
    		  
    		  
 #search {
-	display: table-cell;
 	width:150px;
 	height:20px;
 	position: relative;
@@ -173,7 +179,7 @@ A:active {
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:5px;
-	padding-bottom:1em;
+	padding-bottom:1.1em;
 	padding-top:1em;
 	padding-left:0.5em;
 	padding-right:0.5em;
@@ -185,7 +191,22 @@ A:active {
 	
 }
 
+.current{
+	
+	background: #000;
+	border-radius:5px;
+	}
+	#mpop{
+	
+	background: #000;
+	border-radius:5px;
+	}
 
+	#mpop{
+	
+	background: #000;
+	border-radius:5px;
+	}
 
 
 
@@ -281,23 +302,131 @@ A:active {
 	-o-transition: background-color, color, 2s;
 	transition: background-color, color, 2s;	
 }
+#atext {
+	display: table-cell;
+	width: 175px;
+	height: 60px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+}
+
+#atext a:link {
+   		  color: #FFFFFF;
+		  text-decoration: none;
+  		  opacity: .9;
+  		  }
+#atext a:visited {
+  		 color: #FFFFFF;
+  	     opacity: .1;	
+  		  }
+#atext a:hover {
+		font-size: 20px;
+		text-shadow: -1px 0 #FF9696, 0 1px #FF9696, 1px 0 #FF9696, 0 -1px #FF9696;
+		border-color: #000000;
+   		text-decoration: none;
+  		color: #FFFFFF;
+   		opacity: 1;
+   		  }
+
+
+#contact {
+	float:left;
+	width: 175px;
+	height: 60px;
+	/*
+	background-color: #4DEDF0;
+	*/
+	position: relative;
+	vertical-align: middle;
+	border-top-style:none;
+	border-right-style:solid;
+	border-right-color: #E8E8E8;
+	border-right-width: 1px;
+	border-left-style:none;
+	border-bottom-style:none;
+}
+
+#ctext {
+	display: table-cell;
+	width: 175px;
+	height: 60px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+}
+#ctext a:link {
+   		  color: #FFFFFF;
+		  text-decoration: none;
+  		  opacity: .9;
+  		  }
+#ctext a:visited {
+  		 color: #FFFFFF;
+  	     opacity: .1;	
+  		  }
+#ctext a:hover {
+		font-size: 20px;
+		text-shadow: -1px 0 #FF9696, 0 1px #FF9696, 1px 0 #FF9696, 0 -1px #FF9696;
+		border-color: #000000;
+   		text-decoration: none;
+  		color: #FFFFFF;
+   		opacity: 1;
+   		  }
+
+
+#buy {
+	float:left;
+	width: 175px;
+	height: 60px;
+	/*
+	background-color: #4DEDF0;
+	*/
+	position: relative;
+	vertical-align: middle;
+	border-top-style:none;
+	border-right-style:solid;
+	border-right-color: #E8E8E8;
+	border-right-width: 1px;
+	border-left-style:none;
+	border-bottom-style:none;
+}
+
+#btext {
+	display: table-cell;
+	width: 175px;
+	height: 60px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+}
+#btext a:link {
+   		  color: #FFFFFF;
+		  text-decoration: none;
+  		  opacity: .9;
+  		  }
+#btext a:visited {
+  		 color: #FFFFFF;
+  	     opacity: .1;	
+  		  }
+#btext a:hover {
+		font-size: 20px;
+		text-shadow: -1px 0 #FF9696, 0 1px #FF9696, 1px 0 #FF9696, 0 -1px #FF9696;
+		border-color: #000000;
+   		text-decoration: none;
+  		color: #FFFFFF;
+   		opacity: 1;
+   		  }
 
 
 
-/*result text on the image*/
-
-
-
-#checkout {
+#messages {
 	width: 700px;
 	height: 200px;
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-image: url("check.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+	
+   
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -305,203 +434,45 @@ A:active {
 
 }
 
-#checktext{
+/*result text on the image*/
+#thanks{
 	display: table-cell;
 	width: 700px;
 	height: 200px;
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	/*opacity: .8;*/
-	/*text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
+	
+	
 }
 
 
 h2 {
-	color: #FFFFFF;
-	font-size: 30px;
+	color: #F75A93;
+	font-size: 40px;
 }
 
 /*check our page from here*/
-#cbox {
+#blackbox {
 	width: 700px;
-	height: 600px;
-	/*background-color: #FFFFFF;
-	opacity: .5;*/
-	/*
-	background-color:rgba(255,255,255,0.5);*/ /*just opacity the background not everything*/
+	height: 120px;
+
+	background-color:rgba(0,0,0,0.5); 
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.5);
-	border-radius: 15px;
+	border-radius:15px
 }
 
-#checklist {
-	width: 600px;
-	height: 400px;
+#boxheader {
+	width: 700px;
+	height: 20px;
+	margin: 40px 0px 40px 0px;
 	position: absolute;
-	/*
-	background-color: rgba(0,0,0,0.5);*/
-	margin: 50px 50px 50px 50px;
-	font-size: 20px;
+	text-align: center;
+	color: white;
+	font-size:30px;
 }
-
-#checkheader {
-	width: 500px;
-	height: 40px;
-	/*
-	background-color:#000000;*/
-	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-color: #FFFFFF;
-	border-width: 1px;
-}
-
-.h5 {
-	font-size: 20px;
-	color: #FFFFFF;
-}
-
-#detail {
-	width: 500px;
-	height: 100px;
-	/*
-	background-color:#000000;*/
-	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: #FFFFFF;
-}
-
-#listbox {
-	float: left;
-	width: 300px;
-	height 100px;
-	font-size: 12px;
-	color: #FFFFFF;
-}
-
-
-#pricebox	{
-	float:left;
-	text-align:right;
-	width: 200px;
-	height 100px;
-	font-size:12px;
-	list-style-type: none;
-	color: #FFFFFF;
-}
-
-#total {
-	width: 500px;
-	height:80px;
-	margin: 20px 20px 20px 40px;
-	/*
-	background-color: #000000;*/
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: white;
-}
-
-#ttext {
-	float:left;
-	width: 300px;
-	height 50px;
-	font-size: 12px;
-	color: #FFFFFF;
-	/*
-	background-color: #000000;*/
-}
-
-#tprice {
-	text-align:left;
-	width: 500px;
-	height 50px;
-	font-size:12px;
-	color: #FFFFFF;
-	/*
-	background-color:#000000;*/
-}
-
-#tu {
-	width:500px;
-	height: 120px;
-	margin: 0 auto;	
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: white;
-}
-
-#tutext {
-	text-align:left;
-	width: 500px;
-	height: 120px;
-	font-size:13px;
-	color: #FFFFFF;
-	
-	}
-
-#BAP {
-	width: 500px;
-	height: 100px;
-	/*
-	background-color: #9C9C9C;*/
-	margin: 0px 20px 20px 40px;
-}
-
-#bbbox {
-	width: 150px;
-	height: 50px;
-	/*
-	background-color:#000000;*/
-	margin: 25px 66.6px 25px 66.6px;
-	position: absolute;
-}
-
-#bbutton {
-	width:150px;
-	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	font-size: 14px;
-	color: #FFFFFF;
-	border-radius: 5px;
-	border-color: #EB0075;
-}
-
-#pbbox {
-	width: 150px;
-	height: 50px;
-	/*
-	background-color:#000000;*/
-	margin: 25px 66.6px 25px 283.2px;
-	position: absolute;
-
-}
-
-#pbutton {
-	width:150px;
-	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	font-size: 15px;
-	color: #FFFFFF;
-	border-radius: 5px;
-	border-color: #EB0075;
-}
-
-
-#sq {
-	list-style-type: square;
-}
-
-#no {
-	list-style-type: none;
-}
-
-
-/* here is the botton part of the home page is exactly the same*/
 
 #more {
 	width:700px;
@@ -528,10 +499,11 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+	
 }
 
-nav ul li {
+#moretext nav ul li {
 	display: inline;
 	list-style: none;
 	margin-right:0.5em;
@@ -555,6 +527,5 @@ nav ul li {
    		  text-decoration: none;
    		  color: #FFFFFF;
    		  opacity:.7;
-   		  }
-   		  
+   		  }	  
 

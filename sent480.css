@@ -1,7 +1,15 @@
-/* as title and headers are similar, just get the codes from home page and change a little bit then change the values*/
+/*This is the 480 size page after user click sent from contact page*/
+
+Body{
+	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	font:1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
+	}
+
 body {
 	background-image:url('bg.jpg');
-	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
+	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;	
 	}
 
 
@@ -16,8 +24,8 @@ h1   {
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
-	width: 700px;
-	height: 125px;
+	width: 480px;
+	height: 50px;
 	margin: 0px auto;
 }
 
@@ -25,32 +33,31 @@ h1   {
 	float: left;
 	/*
 	background-color:#FAC8D9;
-	*/
-	background:linear-gradient(to right,#F75A93,#F75A73);
+	
+	background:linear-gradient(to right,#F75A93,#F75A73);*/
 	width:100px;
 	height:100px;
 	position: relative; /* without this it will be at the bottom of the page */
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;*/
-	/*margin:50px, 0px, 50px, 100px;*/
+	/*margin:50px, 0px, 50px, 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:0em;
 	border-bottom-right-radius:0em;
 	border-bottom-left-radius:1em;
-	
+	*/
 }
 
 #mainlogo{
 	float:left;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	background-color: #000000;
 	position:relative;
 	}
 	
-	
 #mimage {
-    height: 100px;
+    height: 50px;
 }
 
 img {
@@ -61,15 +68,16 @@ img {
 #candyimage {
 	float: left;
 	background-color: #000000;
-	width:600px;
-	height:100px;
+	width:430px;
+	height:50px;
 	/*margin: 0px auto;*/
 	/*padding: 10px 20px 10px 20px;
 	margin:50px, 100px, 50px, 0px;
 	border-top-left-radius:0em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
-	border-bottom-left-radius:0em;*/
+	border-bottom-left-radius:0em;
+	*/
 	background-image: url("header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,15 +87,13 @@ img {
 }
 
    		  
-   		  
 #search {
-	display: table-cell;
 	width:150px;
 	height:20px;
 	position: relative;
 	vertical-align: middle;
 	text-align: center;
-	margin: 40px 0px 40px 200px;
+	margin: 15px 0px 15px 100px;
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -97,11 +103,11 @@ img {
 }
 
 #sbutton {
-	width:100px;
+	width:80px;
 	height:30px;
 	position:relative;
 	background-color: #F75A93;
-	font-size: 15px;
+	font-size: 12px;
 	color: #FFFFFF;
 	border-radius: 10px;
 }
@@ -112,40 +118,21 @@ h2 {
 }
 
 #mainmenu{
-	
+	display:none;
 	height: 50px;
-	width:665px;
+	width:300px;
 	margin: 0px auto;
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
-	/*text-indent:0em;
+	text-indent:0em;
 	padding-top:0.5px;
+
 	padding-left:1em;
 	padding-right:1em;
 	padding-bottom:0.5px;
-	-webkit-padding-top:0.5px;
-	-webkit-padding-left:1em;
-	-webkit-padding-right:1em;
-	-webkit-padding-bottom:0.5px;*/
 	border-radius:15px;
 }
-
-#menuhold {
-	width: 600px;
-	height: 20px;
-	/*
-	background-color: black;*/
-	margin: 15px 32.5px 15px 32.5px;
-	position: absolute;
-}
-
-#menuhold ul{
-	list-style-type: none;
-	margin: 0px 0px 0px 0px;;
-}
-
 #mainmenu{
 	margin-top:2em;
 	}
@@ -166,38 +153,39 @@ A:active {
 #mainmenu li:hover {
 	background: #FF91AF;
 	
-	border-radius:15px;
+	padding-top:2px;
+	padding-bottom:2px;	
+	border-radius:25px;
 }
 #mainmenu li{
-	display: inline;
+	display: hide;
 	list-style-type: none;
-	margin-top: 2em;
-	margin-right:5px;
-	padding-bottom:1em;
-	padding-top:1em;
+	margin-top: 1em;
+	margin-right: 1px;/*spreads out the items in main menu for better spacing*/
+	padding-bottom:0;
+	padding-top:0.5em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
-	-moz-transition: background-color, color .5s;
-	-webkit-transition:background-color, color .5s;
-	-o-transition: background-color, color, .5s;
-	transition: background-color, color, .5s;	
+	-moz-transition: background-color, color 2s;
+	-webkit-transition:background-color, color 2s;
+	-o-transition: background-color, color, 2s;
+	transition: background-color, color, 2s;
+	font-size: 10px;
 	
 }
 
-
-
-
-
 #mainmenu2{
-	display: none;
+	display: run-in;
 	width: 300px;
 	height: 80px;
-	margin: 0px auto;
+
 	border-style:none;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	border-radius:15px;	
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
 }
 
 #menu480{
@@ -242,6 +230,28 @@ A:active {
 	font-size: 2px;
 }
 
+#mainmenu3{
+	display: run-in;
+	width: 300px;
+	height: 80px;
+
+	border-style:none;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
+	border-radius:15px;
+	/*	margin: 0px auto;*/
+	margin: 0px 90px 0px 90px;
+}
+
+#menutwo480{
+	width:240px;
+	height:60px;
+	margin: 10px 30px 10px 30px;
+	position:absolute;
+	
+}
+
+
 #mainmenu2{
 	margin-top:2em;
 	}
@@ -276,28 +286,22 @@ A:active {
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
-	-moz-transition: background-color, color 2s;
-	-webkit-transition:background-color, color 2s;
-	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	-moz-transition: background-color, color 0.5s;
+	-webkit-transition:background-color, color 0.5s;
+	-o-transition: background-color, color, 0.5s;
+	transition: background-color, color, 0.5s;	
 }
 
 
 
-/*result text on the image*/
-
-
-
-#checkout {
-	width: 700px;
+#messages {
+	width: 100px;
 	height: 200px;
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-image: url("check.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+	
+   
 	border-top-left-radius:1em;
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
@@ -305,206 +309,135 @@ A:active {
 
 }
 
-#checktext{
-	display: table-cell;
-	width: 700px;
-	height: 200px;
-	position: relative;
-	vertical-align:middle;
-	text-align: center;
-	/*opacity: .8;*/
-	/*text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
+/*result text on the image*/
+#thanks{
+	
+	
+	
 }
 
 
 h2 {
-	color: #FFFFFF;
-	font-size: 30px;
+	color: #F75A93;
+	font-size: 40px;
 }
 
 /*check our page from here*/
-#cbox {
-	width: 700px;
-	height: 600px;
-	/*background-color: #FFFFFF;
-	opacity: .5;*/
-	/*
-	background-color:rgba(255,255,255,0.5);*/ /*just opacity the background not everything*/
+#blackbox {
+	width: 480px;
+	height: 450px;
+
+	background-color:rgba(0,0,0,0.5); 
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.5);
-	border-radius: 15px;
+	border-radius:15px
 }
 
-#checklist {
-	width: 600px;
+#info {
+	width: 200px;
 	height: 400px;
 	position: absolute;
-	/*
-	background-color: rgba(0,0,0,0.5);*/
-	margin: 50px 50px 50px 50px;
+	color:#fff;
+	margin: 50px 0px 0px 0px;
 	font-size: 20px;
 }
 
-#checkheader {
-	width: 500px;
+#boxheader {
+	width: 390px;
 	height: 40px;
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-color: #FFFFFF;
-	border-width: 1px;
+	border-bottom-style: solid;
+	border-width:1px;
 }
 
-.h5 {
-	font-size: 20px;
-	color: #FFFFFF;
-}
-
-#detail {
-	width: 500px;
+#details {
+	width: 390px;
 	height: 100px;
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: #FFFFFF;
+	border-bottom-style: solid;
+		border-width:1px;
+
 }
 
-#listbox {
+#infolist {
 	float: left;
 	width: 300px;
 	height 100px;
-	font-size: 12px;
-	color: #FFFFFF;
-}
-
-
-#pricebox	{
-	float:left;
-	text-align:right;
-	width: 200px;
-	height 100px;
-	font-size:12px;
+	font-size: 16px;
 	list-style-type: none;
-	color: #FFFFFF;
 }
 
-#total {
+
+
+
+#feedback {
 	width: 500px;
-	height:80px;
+	height:50px;
 	margin: 20px 20px 20px 40px;
-	/*
-	background-color: #000000;*/
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: white;
+	
 }
 
-#ttext {
+#feedtext {
 	float:left;
-	width: 300px;
+	width: 390px;
 	height 50px;
 	font-size: 12px;
-	color: #FFFFFF;
-	/*
-	background-color: #000000;*/
-}
-
-#tprice {
-	text-align:left;
-	width: 500px;
-	height 50px;
-	font-size:12px;
-	color: #FFFFFF;
-	/*
-	background-color:#000000;*/
-}
-
-#tu {
-	width:500px;
-	height: 120px;
-	margin: 0 auto;	
-	border-style: none none solid none;
-	border-width: 1px;
-	border-color: white;
-}
-
-#tutext {
-	text-align:left;
-	width: 500px;
-	height: 120px;
-	font-size:13px;
-	color: #FFFFFF;
 	
-	}
-
-#BAP {
-	width: 500px;
-	height: 100px;
-	/*
-	background-color: #9C9C9C;*/
-	margin: 0px 20px 20px 40px;
 }
 
-#bbbox {
+
+#back {
+	width: 10px;
+	height: 100px;
+	margin: 0px 0px 20px 0px;
+}
+
+#backbuttonbox {
 	width: 150px;
 	height: 50px;
 	/*
 	background-color:#000000;*/
-	margin: 25px 66.6px 25px 66.6px;
+	margin: 25px 0px 25px 40px;
 	position: absolute;
 }
 
-#bbutton {
+#backbutton {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
 	border-color: #EB0075;
 }
 
-#pbbox {
+#orderbuttonbox {
 	width: 150px;
 	height: 50px;
 	/*
 	background-color:#000000;*/
-	margin: 25px 66.6px 25px 283.2px;
+	margin: 25px 66.6px 25px 280px;/*moves the position of the button*/
 	position: absolute;
 
 }
 
-#pbutton {
+#orderbutton {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
 	border-color: #EB0075;
 }
 
-
-#sq {
-	list-style-type: square;
-}
-
-#no {
-	list-style-type: none;
-}
-
-
-/* here is the botton part of the home page is exactly the same*/
-
-#more {
-	width:700px;
+#footer {
+	width:480px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
@@ -517,18 +450,14 @@ h4 {
 	size: 15px;
 }
 
-#moretext {
+#footertext {
 	display: table-cell;
-	width: 700px;
+	width: 480px;
 	height: 120px;
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	/*
-	background-color:#FAC8D9;
-	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {
@@ -537,21 +466,21 @@ nav ul li {
 	margin-right:0.5em;
 }
 
-#moretext a:link {
+#footertext a:link {
    		  color: #FFFFFF;
 		  text-decoration: none;
   		  opacity: .8;
   		  }
-#moretext a:visited {
+#footertext a:visited {
   		 color: #FFFFFF;
   	     opacity: .1;	
   		  }
-#moretext a:hover {
+#footertext a:hover {
    		  text-decoration: none;
   		  color: #FFFFFF;
    		  opacity: 1;
    		  }
-#moretext a:active {
+#footertext a:active {
    		  text-decoration: none;
    		  color: #FFFFFF;
    		  opacity:.7;
