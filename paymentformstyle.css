@@ -1,3 +1,5 @@
+/*Coded by Nicholas Singh*/
+
 Body{
 	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
 	background-position: 0% 0%;
@@ -229,100 +231,8 @@ A:active {
 }
 
 
-
-
-
 	
-div#items{
 
-
-
-	
-	text-indent:2.5em;
-	
-	border-bottom-style:solid;
-	border-color: #F13C76;
-	
-}
-
-
-
-
-
-
-
-div#menu {
-	margin-left:20em;
-	padding-left:0em;
-	padding-right:5em;
-	}
-	#about {
-	float:left;
-	
-	margin:16px;
-}
-
-#contact {
-	float: left;
-	
-	margin:16px;
-}
-
-#home {
-	float:left;
-	
-	margin:16px;
-}
-	
-#footer {
-	width:480px;
-	height: 120px;
-	margin: 0px auto;
-	background-color: #575254;
-	position: relative;
-	vertical-align: middle;
-}
-
-h4 {
-	color: #FFFFFF;
-	size: 15px;
-}
-
-#footertext {
-	display: table-cell;
-	width: 480px;
-	height: 120px;
-	position: relative;
-	vertical-align:middle;
-	text-align: center;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-}
-
-nav ul li {
-	display: inline;
-	list-style: none;
-	margin-right:0.5em;
-}
-
-#footertext a:link {
-   		  color: #FFFFFF;
-		  text-decoration: none;
-  		  opacity: .8;
-  		  }
-#footertext a:visited {
-  		 color: #FFFFFF;
-  	     opacity: .1;	
-  		  }
-#footertext a:hover {
-   		  text-decoration: none;
-  		  color: #FFFFFF;
-   		  opacity: 1;
-   		  }
-#footertext a:active {
-   		  text-decoration: none;
-   		  color: #FFFFFF;
-   		  opacity:.7;
-   		  }
    		  
 
 
@@ -411,4 +321,52 @@ width:150px;
 	border-radius: 5px;
 	border-color: #EB0075;
 }
+#footer {
+	width:480px;
+	height: 120px;
+	margin: 0px auto;
+	background-color: #575254;
+	position: relative;
+	vertical-align: middle;
+}
 
+h4 {
+	color: #FFFFFF;
+	size: 15px;
+}
+
+#footertext {
+	display: table-cell;
+	width: 480px;
+	height: 120px;
+	position: relative;
+	vertical-align:middle;
+	text-align: center;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right:0.5em;
+}
+
+#footertext a:link {
+   		  color: #FFFFFF;
+		  text-decoration: none;
+  		  opacity: .8;
+}
+#footertext a:visited {
+  		 color: #FFFFFF;
+  	     opacity: .1;	
+}
+#footertext a:hover {
+   		  text-decoration: none;
+  		  color: #FFFFFF;
+   		  opacity: 1;
+}
+#footertext a:active {
+   		  text-decoration: none;
+   		  color: #FFFFFF;
+   		  opacity:.7;
+}

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head><title>Candy Box Store</title>
+	<head><title>Payment Form | Candy Box </title>
 	
-      <link rel="stylesheet" type="text/css" href="paymentform.css"/>
+	<!--Style sheets for mobile and desktop-->
+    <link rel="stylesheet" type="text/css" href="paymentform.css"/>
 	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="paymentformstyle.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
 
+	<!--scales page when using mobile device-->
     <!--<meta name="viewport" content="width=device-width">-->
     <meta name="viewport" content="width=480">
     <meta charset="utf-8">
 	</head>
 	<body>
+	
+		<!--header images and search-->
 		<div id = "titleHolder">
 			<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo"></a></div></div>
 
@@ -20,6 +24,7 @@
 			</div>
 		</div>
 		
+		<!--main nav-->
 		<div id="mainmenu">
 			<nav>
 				<ul>
@@ -34,6 +39,8 @@
 			</nav>
 		</div>
 		<br/>
+		
+		<!--mobile nav-->
 		<div id="mainmenu2">
 			<div id="menu480">
   					<div class="menuleft">
@@ -70,7 +77,7 @@
 		</div>
 		<br/>
 		
-
+		<!--container that holds all form elements-->
 		<div id="rowview"> 
 			
 			<div id="paymentform">
@@ -115,7 +122,9 @@
 						
 					</div>
 					
-					<br/>		
+					<br/>	
+					
+					<!--credit card info-->	
 					<fieldset>
 				
 						<legend>Card Details</legend>
@@ -145,6 +154,7 @@
 						</div>
 				</fieldset>	
 				
+				<!--order button-->
 				<div id="back"> 
 					<div id="backbuttonbox">
 					<button type="button" id="backbutton" onclick="location.href='#product'">PLACE<br/>ORDER</button>
@@ -155,11 +165,9 @@
 	
 				</div>
 			
-<br/>
-<div id="footerimage">
-			
-			
-		</div>
+		<br/>
+
+		<!--footer-->
 		<div id="footer">
 			<div id="fnote">
 			<h4>Go to CONTACT to learn how we can serve your event</h4>
