@@ -312,7 +312,7 @@ h3 {
 /*contact page from here*/
 #cbox {
 	width: 466.67px;
-	height: 950px;
+	height: 1220px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
@@ -396,6 +396,25 @@ h3 {
 
 h8{ 
 	font-size: 15px;
+}
+
+#evheader{
+	width: 200px;
+	height: 20px;
+	color: white;
+	font-size: 15px;
+	margin: 20px 20px 20px 40px;
+
+}
+
+#ppp{
+	width: 375px;
+	height: 150px;
+	color: white;
+	font-size: 15px;
+	margin: 20px 20px 20px 40px;
+	border-style: none none solid none;
+	border-width: 1px;
 }
 
 #feedback{

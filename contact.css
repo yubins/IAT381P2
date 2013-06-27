@@ -330,7 +330,7 @@ h2 {
 /*contact page from here*/
 #cbox {
 	width: 700px;
-	height: 1050px;
+	height: 1250px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
@@ -415,6 +415,26 @@ h2 {
 h8{ 
 	font-size: 15px;
 }
+
+#evheader{
+	width: 500px;
+	height: 20px;
+	color: white;
+	font-size: 20px;
+	margin: 20px 20px 20px 40px;
+
+}
+
+#ppp{
+	width: 500px;
+	height: 100px;
+	color: white;
+	font-size: 15px;
+	margin: 20px 20px 20px 40px;
+	border-style: none none solid none;
+	border-width: 1px;
+}
+
 
 #feedback{
 	width: 600px;
