@@ -1,7 +1,7 @@
 /* as title and headers are similar, just get the codes from home page and change a little bit then change the values*/
 body {
 	background-image:url('bg.jpg');
-	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;	
+	font: 1em Arial Rounded MT Bold, Helvetica, Arial, sans-serif;
 	}
 
 
@@ -13,9 +13,6 @@ h1   {
 	position: absolute; bottom: 0; right:0;
 }
 
-body { /* make everything at the middle*/
-	/*text-align: center;*/
-}
 
 
 #titleHolder {  /*group the candy and candyimage,make them in the middle of the page */
@@ -113,9 +110,6 @@ h2 {
 	color: #FFFFFF;
 	font-size: 30px;
 }
-
-
-
 #mainmenu{
 	
 	height: 50px;
@@ -288,18 +282,17 @@ A:active {
 
 
 
-
-
-
 /*result text on the image*/
 
-#contactimage {
+
+
+#checkout {
 	width: 700px;
 	height: 200px;
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
-	background-image: url("contact2.jpg");
+	background-image: url("check.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -307,18 +300,18 @@ A:active {
 	border-top-right-radius:1em;
 	border-bottom-right-radius:1em;
 	border-bottom-left-radius:1em;
+
 }
 
-
-#contacttext{
+#checktext{
 	display: table-cell;
 	width: 700px;
 	height: 200px;
 	position: relative;
 	vertical-align:middle;
 	text-align: center;
-	/*opacity: .8;
-	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
+	/*opacity: .8;*/
+	/*text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;*/
 }
 
 
@@ -327,266 +320,190 @@ h2 {
 	font-size: 30px;
 }
 
-/*contact page from here*/
+/*check our page from here*/
 #cbox {
 	width: 700px;
-	height: 1250px;
+	height: 700px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
-	background-color:rgba(0,0,0,0.5); /*just opacity the background not everything*/
+	/*
+	background-color:rgba(255,255,255,0.5);*/ /*just opacity the background not everything*/
 	margin: 0px auto;
 	position: relative;
 	vertical-align: middle;
+	background-color: rgba(0,0,0,0.5);
 	border-radius: 15px;
 }
 
-#contactlist {
+#checklist {
 	width: 600px;
-	height: 950px;
+	height: 400px;
 	position: absolute;
 	/*
-	background-color: #FFFFFF;*/
+	background-color: rgba(0,0,0,0.5);*/
 	margin: 50px 50px 50px 50px;
 	font-size: 20px;
 }
 
-#contactheader {
+#checkheader {
 	width: 500px;
 	height: 40px;
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
 	border-style: none none solid none;
-	color: #FFFFFF;
+	border-color: #FFFFFF;
 	border-width: 1px;
+}
+
+.h5 {
+	font-size: 20px;
+	color: #FFFFFF;
 }
 
 #detail {
 	width: 500px;
-	height: 300px;
+	height: 100px;
 	/*
 	background-color:#000000;*/
 	margin: 20px 20px 20px 40px;
 	border-style: none none solid none;
 	border-width: 1px;
+	border-color: #FFFFFF;
+}
+
+#listbox {
+	float: left;
+	width: 300px;
+	height 100px;
+	font-size: 12px;
 	color: #FFFFFF;
 }
 
-#mapbox {
+
+#pricebox	{
 	float:left;
-	width: 250px;
-	height: 300px;
-	/*
-	background-color: #000000;*/
-
-}
-
-#mapimage{
-	width: 250px;
-	height: 250px;
-	margin: 25px 0px 25px 0px;
-	background-image: url("map.jpg");
-	border: 2px solid rgba(0, 0, 0, .3);
-}
-
-#infobox {
-	float:left;
-	width: 250px;
-	height: 300px;
-	/*
-	background-color: #000000;*/
-}
-
-#info {
+	text-align:right;
 	width: 200px;
-	height: 250px;
-	margin: 25px;
-	/*
-	background-color: #FFFFFF;*/
-	font-size: 12px;
-	list-style: none;
-	margin: 30px 0px 0px 50px;
+	height 100px;
+	font-size:12px;
+	list-style-type: none;
+	color: #FFFFFF;
 }
 
-#info ul{
+#total {
+	width: 500px;
+	height:80px;
+	margin: 20px 20px 20px 40px;
+	/*
+	background-color: #000000;*/
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: white;
+}
+
+#ttext {
+	float:left;
+	width: 300px;
+	height 50px;
+	font-size: 12px;
+	color: #FFFFFF;
+	/*
+	background-color: #000000;*/
+}
+
+#tprice {
+	text-align:left;
+	width: 500px;
+	height 50px;
+	font-size:12px;
+	color: #FFFFFF;
+	/*
+	background-color:#000000;*/
+}
+
+#tu {
+	width:500px;
+	height: 250px;
+	margin: 0 auto;	
+}
+
+#tutext {
+	text-align:left;
+	width: 500px;
+	height: 200px;
+	font-size:12px;
+	color: #FFFFFF;
+	background-color: black;
+	}
+
+#BAP {
+	width: 500px;
+	height: 100px;
+	/*
+	background-color: #9C9C9C;*/
+	margin: 0px 20px 20px 40px;
+}
+
+#bbbox {
+	width: 150px;
+	height: 50px;
+	/*
+	background-color:#000000;*/
+	margin: 25px 66.6px 25px 66.6px;
+	position: absolute;
+}
+
+#bbutton {
+	width:150px;
+	height:50px;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #EB0075;
+}
+
+#pbbox {
+	width: 150px;
+	height: 50px;
+	/*
+	background-color:#000000;*/
+	margin: 25px 66.6px 25px 283.2px;
+	position: absolute;
+
+}
+
+#pbutton {
+	width:150px;
+	height:50px;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	font-size: 15px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #EB0075;
+}
+
+
+#sq {
+	list-style-type: square;
+}
+
+#no {
 	list-style-type: none;
 }
 
-h8{ 
-	font-size: 15px;
-}
-
-#evheader{
-	width: 500px;
-	height: 20px;
-	color: white;
-	font-size: 20px;
-	margin: 20px 20px 20px 40px;
-
-}
-
-#ppp{
-	width: 500px;
-	height: 100px;
-	color: white;
-	font-size: 15px;
-	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	border-width: 1px;
-}
-
-
-#feedback{
-	width: 600px;
-	height: 400px;
-	position: relative;
-	/*
-	background-color: #FFFFFF;*/
-	margin: 0px auto;
-}
-
-#fbheader {
-	width: 500px;
-	height: 40px;
-	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	color: #FFFFFF;
-	border-width: 1px;
-}
-
-.n {
-	width: 500px;
-	height: 30px;
-	margin: 0px 0px 0px 40px;
-	/*
-	background-color: #F0F0F0;*/
-	font-size: 12px;
-	color: #FFFFFF;
-}
-.n input {
-	position: absolute;
-	margin: 5px 5px 5px 90px;
-}
-
-#nt {
-	position: relative;
-	float: left;
-	width: 100px;
-	height: 30px;
-	font-size: 5px;
-	}
-
-#ni {
-	position: relative;
-	float: left;
-	width: 400px;
-	height: 30px;
-
-}
-
-.h9 {
-	position: relative;
-	position: absolute; bottom: 5px; left:5px; top 5px; right 5px;
-	text-align: left;
-	font-size: 15px;
-}
-
-.et {
-	position: relative;
-	float: left;
-	width: 100px;
-	height: 30px;
-	color: #FFFFFF;
-	}
-
-.ei {
-	position: relative;
-	float: left;
-	width: 400px;
-	height: 30px;
-}
-
-.e input {
-	position: absolute;
-	margin: 5px 5px 5px 90px;
-}
-
-.e{
-	width: 500px;
-	height: 30px;
-	margin: 0px 0px 0px 40px;
-	/*
-	background-color: #F0F0FF;*/
-}
-
-.s{
-	width: 500px;
-	height: 30px;
-	margin: 0px 0px 0px 40px;
-	/*
-	background-color: #F0F0FF;*/
-}
-
-.s input {
-	position: absolute;
-	margin: 5px 5px 5px 90px;
-}
-
-
-.m{
-	width: 500px;
-	height: 60px;
-	margin: 20px 20px 20px 40px;
-	/*
-	background-color: #F0F0FF;*/
-}
-
-.m textarea {
-	width: 300px;
-	height: 200px;
-	position: absolute;
-	margin: 5px 5px 5px 90px;
-	resize: none;
-}
-
-
-#submit {
-	position: relative;
-	width: 500px;
-	height: 40px;
-	margin: 20px 20px 20px 40px;
-	border-style: none none solid none;
-	color: #FFFFFF;
-	border-width: 1px;
-}
-
-#submitbutton {
-	width:200px;
-	height:30px;
-	position:relative;
-	background-color: #F75A93;
-	font-size: 15px;
-	color: #FFFFFF;
-	border-radius: 10px;
-	margin: 0px 150px 0px 150px;
-}
-
-
 
 /* here is the botton part of the home page is exactly the same*/
-#x {
-	width:700px;
-	height: 120px;
-	margin: 0px auto;
-}
-
 
 #more {
 	width:700px;
 	height: 120px;
 	margin: 0px auto;
 	background-color: #575254;
-	position: absolute;
+	position: relative;
 	vertical-align: middle;
 }
 
@@ -607,7 +524,6 @@ h4 {
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	background:-moz-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {
