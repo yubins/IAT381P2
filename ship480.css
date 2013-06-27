@@ -307,7 +307,7 @@ h2 {
 /*check our page from here*/
 #cbox {
 	width: 400px;
-	height: 700px;
+	height: 580px;
 	/*background-color: #FFFFFF;
 	opacity: .5;*/
 	/*
@@ -416,10 +416,9 @@ h2 {
 #tutext {
 	text-align:left;
 	width: 350px;
-	height: 200px;
-	font-size:12px;
+	height: 120px;
+	font-size:13px;
 	color: #FFFFFF;
-	
 	border-style: none none solid none;
 	border-width: 1px;
 	border-color: #FFFFFF;
