@@ -1,3 +1,5 @@
+/*Coded by Nicholas Singh*/
+
 
 Body{
 	background-image: url(images/ivory-off-white-paper-texture.jpg) ;
@@ -306,81 +308,9 @@ div#items{
 	
 }
 
-div#footerimage img{
-margin-left:60em;
-float:left;
 
-
-}
-<!--div#footertext {
-
-font-size:60%;
-border-style:none;
-	margin-bottom:0em;
-	margin-right:48em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	float:right;
-}-->
-
-
-
-
-div#menu {
-	margin-left:20em;
-	padding-left:0em;
-	padding-right:5em;
-	}
-	#about {
-	float:left;
 	
-	margin:16px;
-}
 
-#contact {
-	float: left;
-	
-	margin:16px;
-}
-
-#home {
-	float:left;
-	
-	margin:16px;
-}
-	
-#footer {
-	width:700px;
-	height: 0px;
-	margin: 0px auto;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-}
-
-h4 {
-	color: #FFFFFF;
-	size: 5px;
-}
-
-#fnote {
-	display: table-cell;
-	width: 700px;
-	height: 50px;
-	margin:0px auto;
-	text-align: center;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-
-}
-#fnote li{
-display: inline;
-	list-style: none;
-	margin-right:0.5em;
-	}
 
 #rowview {
 	width: 700px;
@@ -466,3 +396,29 @@ color:#FFF;
 	border-color: #EB0075;
 }
 
+#footer {
+	width:700px;
+	height: 0px;
+	margin: 0px auto;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+}
+
+h4 {
+	color: #FFFFFF;
+	size: 5px;
+}
+
+#fnote {
+	display: table-cell;
+	width: 700px;
+	height: 50px;
+	margin:0px auto;
+	text-align: center;
+	background:linear-gradient(to right,#F75A93,#F75A73);
+
+}
+#fnote li{
+display: inline;
+	list-style: none;
+	margin-right:0.5em;
+	}
