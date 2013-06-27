@@ -402,8 +402,7 @@ div#viewchange li:hover {
 	
 	
 	background: #FF91AF;
-	padding-top:20px;
-	padding-bottom:0em;
+	
 	
 	
 }
@@ -497,54 +496,7 @@ div#items{
 	
 }
 
-div#footerimage img{
-margin-left:60em;
-float:left;
 
-
-}
-<!--div#footertext {
-
-font-size:60%;
-border-style:none;
-	margin-bottom:0em;
-	margin-right:48em;
-	margin-left:33.25em;
-	margin-top:2em;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	text-indent:0em;
-	padding-top:0.04px;
-	padding-left:0em;
-	padding-right:1em;
-	padding-bottom:0px;
-	float:right;
-}-->
-
-
-
-
-div#menu {
-	margin-left:20em;
-	padding-left:0em;
-	padding-right:5em;
-	}
-	#about {
-	float:left;
-	
-	margin:16px;
-}
-
-#contact {
-	float: left;
-	
-	margin:16px;
-}
-
-#home {
-	float:left;
-	
-	margin:16px;
-}
 #checkbox {
 	width:480px;
 	height: 30px;
@@ -564,7 +516,6 @@ div#menu {
 	border-radius: 5px;
 	border-color: #EB0075;
 	}
-	
 #footer {
 	width:480px;
 	height: 120px;
@@ -589,7 +540,7 @@ h4 {
 	background:linear-gradient(to right,#F75A93,#F75A73);
 }
 
-#nav ul li {
+nav ul li {
 	display: inline;
 	list-style: none;
 	margin-right:0.5em;
@@ -614,6 +565,10 @@ h4 {
    		  color: #FFFFFF;
    		  opacity:.7;
    		  }
+   		  
+
+   		  	
+
 
 #rowview {
 	width: 480px;
