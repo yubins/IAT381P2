@@ -169,17 +169,16 @@ A:active {
 
 #mainmenu li:hover {
 	background: #FF91AF;
-	padding-top:2px;
-	padding-bottom:2px;	
-	border-radius:25px;
+	
+	border-radius:15px;
 }
 #mainmenu li{
 	display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:10px;
-	padding-bottom:0;
-	padding-top:0.5em;
+	padding-bottom:1em;
+	padding-top:1em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
@@ -315,7 +314,6 @@ A:active {
 	vertical-align:middle;
 	text-align: center;
 	text-align:-webkit-center;
-	opacity: .7;
 	/*
 	text-shadow: -2px 0 #F75A93, 0 2px #F75A93, 2px 0 #F75A93, 0 -2px #F75A93;
 	*/
