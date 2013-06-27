@@ -126,10 +126,10 @@ h2 {
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
-	background:-moz-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);/*makes background color work in safari*/
+
 	text-indent:0em;
-	padding-top:0.5px;
+		padding-top:0.5px;
 
 	padding-left:1em;
 	padding-right:1em;
@@ -142,7 +142,6 @@ h2 {
 A:link {
 	text-decoration: none;
 	color:#FFF ;
-	opacity: .9;
 }
 A:visited { 
 	text-decoration: none;
@@ -154,29 +153,49 @@ A:active {
 }
 
 #mainmenu li:hover {
-	background: #FF91AF;
 	
-	padding-top:2px;
-	padding-bottom:2px;	
-	border-radius:25px;
+	
+	background: #FF91AF;
+	padding-top:1em;
+	padding-bottom:1em;	
+	border-radius:5px;
 }
 #mainmenu li{
-	display: inline;
+display: inline;
+
 	list-style-type: none;
-	margin-top: 2em;
 	margin-right:10px;/*spreads out the items in main menu for better spacing*/
-	padding-bottom:0;
-	padding-top:0.5em;
+	padding-bottom:1em;/*fixes the height of the perm hover*/
+	padding-top:1em;/*fixes the height of the perm hover*/
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
-	-moz-transition: background-color, color 2s;
-	-webkit-transition:background-color, color 2s;
-	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	
+	display: -webkit-inline-block;
+
+	list-style-type: -webkit-none;
+	margin-right:-webkit-10px;/*spreads out the items in main menu for better spacing*/
+	padding-bottom:-webkit-1em;/*fixes the height of the perm hover*/
+	padding-top:-webkit-1em;/*fixes the height of the perm hover*/
+	padding-left:-webkit-0.5em;
+	padding-right:-webkit-0.5em;
+	border-style:-webkit-none;
+	-moz-transition: background-color, color 0.5s;
+	-webkit-transition:background-color, color 0.5s;
+	-o-transition: background-color, color, 0.5s;
+	transition: background-color, color, 0.5s;
 	
 }
-
+#current{
+	
+	background: #000;
+	border-radius:5px;
+	}
+	#mpop{
+	
+	background: #000;
+	border-radius:5px;
+	}
 
 
 
@@ -399,11 +418,11 @@ A:active {
 	color: #FFF;
 }
 
-div#viewchange li:hover {
+li.viewicons :hover {
 	
 	
-	background: #FF91AF;
-	padding-top:20px;
+	background: #000;
+	
 	padding-bottom:0em;
 	
 	
@@ -419,6 +438,20 @@ display: inline;
 	
 }
 
+#navtext{
+	
+	height: 40px;
+	width: 700px;
+	padding-bottom:5px;
+	margin: 0px auto;
+	color: #F75A93;
+	font-size:13px;
+	border-top:solid;
+	border-bottom:solid;
+	border-width:1px;
+	
+	}
+
 div#submenu{
 	
 	height: 40px;
@@ -427,8 +460,6 @@ div#submenu{
 	border-style:none;
 	font-size:14px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
-		background:-webkit-linear-gradient(left,#F75A93,#F75A73);
-
 	text-indent:0em;
 	padding-top:0.5px;
 	padding-left:1em;
@@ -465,8 +496,8 @@ display: inline;
 	list-style-type: none;
 	margin-top: 2em;
 	margin-right:15px;
-	padding-bottom:0;
-	padding-top:0.5em;
+	padding-bottom:1em;
+	padding-top:1em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
