@@ -194,8 +194,8 @@ A:active {
 	height: 80px;
 	margin: 0px auto;
 	border-style:none;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	border-radius:15px;	
 }
 
@@ -284,7 +284,11 @@ A:active {
 
 
 /*result text on the image*/
-
+.current{
+	
+	background: #FF91AF;
+	border-radius:5px;
+	}
 
 
 #checkout {
@@ -443,8 +447,8 @@ h2 {
 #bbutton {
 	width:150px;
 	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -464,8 +468,8 @@ h2 {
 #pbutton {
 	width:150px;
 	height:50px;
-	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:linear-gradient(to left,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -509,7 +513,7 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
-	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(left,#F75A93,#F75A73);
 }
 
 nav ul li {
