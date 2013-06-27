@@ -1,8 +1,13 @@
+<!--This site is coded by Ben-->
+
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>contact page</title> <!--copy most of the code form search page first-->
+		<title>Contact and Feedback | Candy Box</title>
+		<!--the style sheet for regular size-->
 		<link rel="stylesheet" type="text/css" href="contact.css" />
+		<!--the style sheet for 480px width size-->
 		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="contact480.css"/>
 		<meta name="viewport" content="width=480">
 			<meta charset="utf-8">
@@ -10,23 +15,26 @@
 	
 	<body>
 	<br/>
+	<!--Here is the tittle include logo and search bar-->
 	<div id = "titleHolder">
+			<!--logo-->
 			<div id="mainlogo"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt=""></a></div>
-
+			<!--Search bar-->
 			<div id="candyimage">
 				<label for="search"></label>
 						<input id="search" type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
 			</div>
 		</div>
-		
+		<!--Here is the main menu par, mainmenu is how it looks lik in regualr site
+		mainmenu480 is the menu in 480px width, I use display to hide and show different menu-->
 		<div id="mainmenu">
 			<div id="menuhold">
 				<nav>
 					<ul>
   						<li> <a href="about.html">About</a> </li>
   						<li> <a href="contact.html">Contact</a> </li>
-  						<li> <a href="store.html">BUY NOW</a> </li>
+  						<li> <a href="store.html">Buy Now</a> </li>
  		 				<li> <a href="checkpage.html">Check Out</a> </li>
   						<li> <a href="http://www.facbook.com">Facebook</a> </li>
   						<li> <a href="http://twitter.com">Twitter</a> </li>
@@ -35,6 +43,7 @@
 				</nav>
 			</div>
 		</div>
+		<!--480px width menu bar, will be hide in regular site-->
 		<div id="mainmenu2">
 			<div id="menu480">
   					<div class="menuleft">
@@ -71,6 +80,7 @@
 		</div>
 		<br/>
 		<br/>
+		<!--Here is the contact image and the text to guild user which site they are-->
 		<div id="contactimage">
 			<div id="contacttext">
 			<h2>
@@ -90,6 +100,7 @@
 						<div id="mapimage">
 						</div>
 					</div>
+					<!--All infomation about location phone number and open close time-->
 					<div id="infobox">
 						<div id="info">
 						<ul>
@@ -109,6 +120,7 @@
 					</div>
 				</div>
 				<br/>
+				<!--Give a discription guild user to contact us with the infomation they want-->
 				<div id="events">
 					<div id="evheader">
 					SERVING YOUR EVENT
@@ -120,6 +132,7 @@
 					</div>
 				</div>
 				<br/>
+				<!--the feed back part for user to type discriptions and some personal infomation-->
 				<div id="feedback">
 					<div id="fbheader"> <!--dont have enough time to change all the names yet-->
 					SENT US A NOTE
@@ -149,12 +162,12 @@
 					<div class="m">
 						<div class="et"><div class="h9">MESSAGE</div></div>
 						<div id="mi">
-						<!--<input id="subject" style="width: 300px; height:200px" name="subject" type="text"/>-->
 						<textarea id="message"></textarea>
 						</div>
 					</div>
 					</div>
 				</div>
+				<!--submit button-->
 					<div id= "submit">
 						<button type="button" id="submitbutton" onclick="location.href='sent.html'">Sent</button>
 					</div>
@@ -162,6 +175,7 @@
 		</div>
 		
 		<br/>
+		<!--the footer of the page, it shows shipping taxe and terms of use options-->
 		<div id="x">
 		<div id="more">
 			<div id="moretext">

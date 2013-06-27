@@ -1,8 +1,11 @@
+<!--This site is coded by Ben-->
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>shipping</title> <!--copy most of the code form search page first-->
+		<title>Shipping Tax and Terms of sse | Candy Box</title>
+		<!--the style sheet for regular size-->
 		<link rel="stylesheet" type="text/css" href="ship.css" />
+		<!--the style sheet for 480px width size-->
 		<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="ship480.css"/>
 		<meta name="viewport" content="width=480">
 			<meta charset="utf-8">
@@ -10,22 +13,27 @@
 	
 	<body>
 	<br/>
+	<!--Here is the tittle include logo and search bar-->
 	<div id = "titleHolder">
+			<!--Here is the tittle include logo and search bar-->
+			<!--logo-->	
 			<div id="mainlogo"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt=""></a></div>
+			<!--Search bar-->
 			<div id="candyimage">
 				<label for="search"></label>
 						<input id="search" type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
 			</div>
 		</div>
-		
+		<!--Here is the main menu par, mainmenu is how it looks lik in regualr site
+		mainmenu480 is the menu in 480px width, I use display to hide and show different menu-->
 		<div id="mainmenu">
 			<div id="menuhold">
 				<nav>
 					<ul>
   						<li> <a href="about.html">About</a> </li>
   						<li> <a href="contact.html">Contact</a> </li>
-  						<li> <a href="store.html">BUY NOW</a> </li>
+  						<li> <a href="store.html">Buy Now</a> </li>
  		 				<li> <a href="checkpage.html">Check Out</a> </li>
   						<li> <a href="http://www.facbook.com">Facebook</a> </li>
   						<li> <a href="http://twitter.com">Twitter</a> </li>
@@ -33,6 +41,7 @@
 				</nav>
 			</div>
 		</div>
+		<!--480px width menu bar, will be hide in regular site-->
 		<div id="mainmenu2">
 			<div id="menu480">
   					<div class="menuleft">
@@ -47,7 +56,7 @@
   					</div>
   					<div class="menuleft">
   					<ul>
-  					<li class="menu2"><a href="store.html">Buy now</a></li> 
+  					<li class="menu2"><a href="store.html">Buy Now</a></li> 
   					</ul>
   					</div>
  		 			<div class="menuright">
@@ -69,6 +78,7 @@
 		</div>
 		<br/>
 		<br/>
+		<!--Here is the checkout image and the text to guild user which site they are-->
 		<div id="checkout">
 
 			<div id="checktext">
@@ -83,6 +93,7 @@
 				<div id="checkheader">
 				<p class="h5">Shipping Methods</p>
 				</div>
+				<!--list of shipping price and methods-->
 				<div id="detail">
 					<div id="listbox">
 					<ul id="sq">
@@ -102,6 +113,7 @@
 					</ul>
 					</div>
 				</div>
+				<!--Tax discription-->
 				<div id="total">
 					<div id="ttext">
 					<div class="h5">Tax</div>
@@ -112,9 +124,10 @@
 					The tax is 12% in BC, and then local tax rates apply outside of BC.
 					</div>
 				</div>
+				<!--Terms of use discriptions-->
 				<div id="tu">
 				<div class="h5">
-				Term of Use
+				Terms of Use
 				</div>
 				<br/>
 				<div id="tutext">
@@ -127,6 +140,7 @@
 		</div>
 
 		<br/>
+		<!--the footer of the page, it shows shipping taxe and terms of use options-->
 		<div id="more">
 			<div id="moretext">
 			<h4>Go to CONTACT to learn how e can serve your event</h4>

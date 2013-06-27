@@ -1,38 +1,36 @@
+<!--This site is coded by Ben-->
 <!DOCTYPE html>
 <html>
-	<head><title>Thank you for sending us message</title>
+	<head><title>Thank you for sending us message | Candy Box</title>
 	
-    <!--Linking style sheets for desktop and mobile-->
+	<!--the style sheet for regular size-->
     <link rel="stylesheet" type="text/css" href="sent.css"/>
-	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="sent480.css"/>	<!--media querry, only looks for browser width, applies css when screen is specific size-->
-	
-	<!--adding tag to make sure website scales when on mobile device-->
-    <!--<meta name="viewport" content="width=device-width">-->
+    <!--the style sheet for 480px width size-->
+	<link rel="stylesheet" media="(max-width:480px)" type="text/css" href="sent480.css"/>	
     <meta name="viewport" content="width=480">
     <meta charset="utf-8">
 	</head>
 	<body>
-		<!--header images and search-->
+		<!--Here is the tittle include logo and search bar-->
 		<div id = "titleHolder">
+			<!--Here is the tittle include logo and search bar-->
 			<div id="mainlogo"><div id="mimage"><a href="Ben_p2.html"><img src="images/CANDYBOXLOGOPINK.png" alt="logo"></a></div></div>
-
+			<!--Search bar-->
 			<div id="candyimage">
 				<label for="search"></label>
 						<input id="search"  type="text" placeholder="type of candy" required autofocus/>
 						<button type="button" id="sbutton" onclick="location.href='spage.html'">Search</button>
 			</div>
 		</div>
-		
-		
-		
-			<!--main navigation-->
+		<!--Here is the main menu par, mainmenu is how it looks lik in regualr site
+		mainmenu480 is the menu in 480px width, I use display to hide and show different menu-->
 			<div id="mainmenu">
 			<div id="menuhold">
 				<nav>
 					<ul>
   						<li > <a href="about.html">About</a> </li>
   						<li> <a href="contact.html">Contact</a> </li>
-  						<li > <a href="store.html">Buy now</a> </li>
+  						<li > <a href="store.html">Buy Now</a> </li>
  		 				<li> <a href="checkpage.html">Check Out</a> </li>
   						<li> <a href="http://www.facbook.com">Facebook</a> </li>
   						<li> <a href="http://twitter.com">Twitter</a> </li>
@@ -40,7 +38,7 @@
 				</nav>
 			</div>
 		</div>	
-		<!--mobile main nav-->
+		<!--480px width menu bar, will be hide in regular site-->
 		<div id="mainmenu2">
 			<div id="menu480">
   					<div class="menuleft">
@@ -85,7 +83,7 @@
 			</div>
 		</div>
 		
-		<!--area where purchase info is shown-->
+		<!--Let user know they sent message successful-->
 		<div id="blackbox"> 
 				<div id="boxheader">
 				Thank you for sending us feedback
@@ -96,7 +94,7 @@
 
 		<br/>
 		
-		<!--footer-->
+		<!--the footer of the page, it shows shipping taxe and terms of use options-->
 		<div id="more">
 			<div id="moretext">
 			<h4>Go to CONTACT to learn how we can serve your event</h4>
