@@ -127,6 +127,7 @@ h2 {
 	border-style:none;
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	text-indent:0em;
 	padding-top:0.5px;
 
@@ -151,6 +152,22 @@ A:active {
 	text-decoration: none;
 	color: #FFF;
 }
+
+#menuhold {
+	width: 600px;
+	height: 20px;
+	/*
+	background-color: black;*/
+	margin: 15px 32.5px 15px 32.5px;
+	position: absolute;
+}
+
+#menuhold ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;;
+}
+
+
 
 #mainmenu li:hover {
 	background: #FF91AF;
@@ -436,6 +453,7 @@ h2 {
 	height:30px;
 	margin: 0px 250px 0px 250px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -472,6 +490,7 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {

@@ -424,6 +424,7 @@ h2 {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -442,6 +443,7 @@ h2 {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -477,6 +479,7 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {

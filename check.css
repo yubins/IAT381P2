@@ -110,7 +110,6 @@ h2 {
 	color: #FFFFFF;
 	font-size: 30px;
 }
-
 #mainmenu{
 	
 	height: 50px;
@@ -120,15 +119,32 @@ h2 {
 	
 	background:linear-gradient(to right,#F75A93,#F75A73);
 	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
-	background:-moz-linear-gradient(right,#F75A93,#F75A73);
-	text-indent:0em;
+	/*text-indent:0em;
 	padding-top:0.5px;
-
 	padding-left:1em;
 	padding-right:1em;
 	padding-bottom:0.5px;
+	-webkit-padding-top:0.5px;
+	-webkit-padding-left:1em;
+	-webkit-padding-right:1em;
+	-webkit-padding-bottom:0.5px;*/
 	border-radius:15px;
 }
+
+#menuhold {
+	width: 600px;
+	height: 20px;
+	/*
+	background-color: black;*/
+	margin: 15px 32.5px 15px 32.5px;
+	position: absolute;
+}
+
+#menuhold ul{
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;;
+}
+
 #mainmenu{
 	margin-top:2em;
 	}
@@ -148,7 +164,6 @@ A:active {
 
 #mainmenu li:hover {
 	background: #FF91AF;
-	
 	padding-top:2px;
 	padding-bottom:2px;	
 	border-radius:25px;
@@ -157,19 +172,18 @@ A:active {
 	display: inline;
 	list-style-type: none;
 	margin-top: 2em;
-	margin-right:10px;/*spreads out the items in main menu for better spacing*/
+	margin-right:10px;
 	padding-bottom:0;
 	padding-top:0.5em;
 	padding-left:0.5em;
 	padding-right:0.5em;
 	border-style:none;
-	-moz-transition: background-color, color 2s;
-	-webkit-transition:background-color, color 2s;
-	-o-transition: background-color, color, 2s;
-	transition: background-color, color, 2s;	
+	-moz-transition: background-color, color .5s;
+	-webkit-transition:background-color, color .5s;
+	-o-transition: background-color, color, .5s;
+	transition: background-color, color, .5s;	
 	
 }
-
 
 
 
@@ -429,6 +443,7 @@ h2 {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 14px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -449,6 +464,7 @@ h2 {
 	width:150px;
 	height:50px;
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 	font-size: 15px;
 	color: #FFFFFF;
 	border-radius: 5px;
@@ -492,6 +508,7 @@ h4 {
 	background-color:#FAC8D9;
 	*/
 	background:linear-gradient(to right,#F75A93,#F75A73);
+	background:-webkit-linear-gradient(right,#F75A93,#F75A73);
 }
 
 nav ul li {
